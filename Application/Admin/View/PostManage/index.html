@@ -1,0 +1,147 @@
+{extends file="../Public/base.html" }
+{block config}
+    {$title = "找驴友运营后台"}
+    {$cssArr = array('css/common/main')}
+    {$mainjs = "page/PostManage/index"}
+{/block}
+{block content}
+    {include '../Module/nav.html'}
+    <div class="container tourpal-content">
+      <form class="form-inline" id="query">
+        <div class="form-group">
+          <label for="exampleInputEmail1">帖子ID号：</label>
+          <input type="text" class="form-control" name="id">
+        </div>
+        <div class="form-group">
+          <label for="dest">目的城市：</label>
+          <input type="text" class="form-control" name="dest">
+        </div>
+        <div class="form-group">
+          <label for="">用户ID号：</label>
+          <input type="text" class="form-control" name="uid">
+        </div>
+        <br/><br/>
+        <div class="form-group">
+          <label for="exampleInputPassword1">开始日期：</label>
+          <input type="date" class="form-control" name="startTime" value="{$startTime}">
+        </div>
+        <div class="form-group">
+           <label for="exampleInputPassword1">结束日期：</label>
+          <input type="date" class="form-control" name="endTime" value="{$endTime}">
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="isDelete" value="0"> 显示已删除的帖子
+          </label>
+        </div>
+          <div class="checkbox">
+              <label>
+                  <input type="checkbox" name="isReport" value="0"> 显示已举报的帖子
+              </label>
+          </div>
+        <button id="submit" class="btn btn-default">查询</button>
+      </form>
+      <div class="page-header">
+        <h1>帖子列表</h1>
+      </div>
+      <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>UID</th>
+                <th width="5%">昵称</th>
+                <th width="5%">年龄</th>
+                <th width="5%">性别</th>
+                <th width="7%">目的地</th>
+                <th width="10%">出发时间</th>
+                <th width="10%">旅行时间</th>
+                <th width="10%">联系方式</th>
+                <th width="20%">帖子内容</th>
+                <th width="10%">发帖时间</th>
+                <th width="5%" >举报</th>
+                <th width="23%">操作</th>
+              </tr>
+            </thead>
+            <tbody id="post_list">
+            </tbody>
+      </table>
+      <span id="total" class="item-total">共 <b>0</b> 条</span>
+      <ul id="page"></ul>
+     
+   </div>
+  {literal}
+   <script type="text/template" id="post_list_tpl">
+     {{each list as item}}
+     <tr postid="{{item.id}}">
+        <td>{{item.id}}</td>
+        <td>{{item.uid}}</td>
+        <td>{{item.user.nick_name}}</td>
+        <td>{{item.user.sex | sex}}</td>
+        <td>{{item.user.age}}</td>
+        <td>
+        {{each item.dest as dest}}
+        {{dest.place}}<br/> 
+        {{/each}}
+        </td>
+        <td>{{item.start_at}}</td>
+        <td>{{item.days}}</td>
+        <td>手机：{{item.phone}} <br> 微信：{{item.weixin}} <br> QQ：{{item.qq}}</td>
+        <td>{{item.content}}</td>
+        <td>{{item.created_at}}</td>
+        <td>{{if item.post_id}}
+            是
+            {{else}}
+            否
+            {{/if}}
+        </td>
+        <td>
+          {{if item.is_delete != 1}}
+          <button type="button" htypr="posts" class="btn btn-primary btn-sm btn-del" postid="{{item.id}}" data-toggle="modal" data-target=".confirm-del">删除</button>
+          {{else}}
+          已删
+          {{/if}}
+            {{if item.post_id}}
+            <button type="button" htype="report" id="{{item.id}}" class="btn btn-primary btn-sm btn-del" postid="{{item.id}}" data-toggle="modal" data-target=".report_ignore">忽略举报</button>
+            {{/if}}
+        </td>
+     </tr>
+     {{/each}}
+   </script>
+  {/literal}
+  <!-- 提示框 -->
+  <div class="modal fade confirm-del">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">温馨提示</h4>
+      </div>
+      <div class="modal-body">
+        <p>删除后不可恢复，确认删除吗？</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary" id="confirm_del" data-dismiss="modal">确认</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade report_ignore">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">温馨提示</h4>
+            </div>
+            <div class="modal-body">
+                <p>你确认忽略举报吗？</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" id="report_ignore" class="btn btn-primary" data-dismiss="modal">确定</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+{/block}
+

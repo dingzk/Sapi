@@ -1,0 +1,106 @@
+.page-home{
+    background: #f9f9f9;
+    .search-form {
+      width: 90%;
+      margin: 2.5% auto;
+      border: 1px solid #d8d8d8;
+      height: 33px;
+      line-height: 35px;
+      text-align: center;
+      background: #fff;
+      color: #bebebe;
+      border-radius: 3px;
+    }
+    h5{
+    border-left: 5px solid $negative-color;
+    font-size:1rem;
+    padding-left:5px;
+    margin:20px 0;
+    }
+}
+.hot-theme {
+    padding-left: 5%;
+       ul{
+       list-style:none;
+       padding:0;
+       width:100%;
+       img {
+          width:100%;
+          border-radius: 5px;
+       }
+       li{
+          width: 30%;
+          margin: 0 2.5% 2.5% 0;
+          overflow: hidden;
+          position: relative;
+          float: left;
+          span {
+            height: 25px;
+            text-align: center;
+            position: absolute;
+            color: #fff;
+            right: 10%;
+            bottom: 10%;
+          }
+       }
+    }
+    overflow : hidden;
+}
+.hot-city {
+	padding: 0 5%;
+    ul{
+       list-style:none;
+       padding:0;
+       width:100%;
+       img {
+       	  width:100%;
+          border-radius: 5px;
+       }
+       li{
+       	  width:100%;
+          margin-bottom: 2.5%;
+          span {
+            display: block;
+            width: 100%;
+            height: 50px;
+            text-align: center;
+            position: absolute;
+            color: #fff;
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            .city{
+              font-size:1.2rem;
+              font-weight:bold;
+            }
+            .desc{
+              line-height:38px;
+              
+            }
+          }
+          overflow:hidden;
+          position:relative;
+       }
+    }
+    overflow : hidden;
+}
+.input-row{
+  input {
+    width: 50%;
+    float:left;
+  }
+  .icon {
+    float:right;
+    line-height: 35px;
+    margin-right:10px;
+  }
+}
+.feedback {
+  a {
+    color:#aaa;
+    text-decoration:underline;
+  }
+  text-align:center;
+}

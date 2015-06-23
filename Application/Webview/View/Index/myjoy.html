@@ -1,0 +1,38 @@
+{extends file="../Public/base.html" }
+{block config}
+    {$title = "找驴友"}
+    {$cssArr = array("/tourpal/main")}
+    {$mainjs = "/tourpal/main"}
+{/block}
+{block content}
+    <header class="bar bar-nav">
+   		<nav>
+        <span class="title">求同行的人</span>
+        </nav>
+    </header>
+    <div class="page-content page-myjoy">
+    	<div class="list-content-wrap">
+  	    </div>
+    </div>
+    {* 列表魔板 *}
+	{literal}
+	<script type="text/template" id="my_joy_tpl">
+		<ul class="table-view">
+		  {{each list as item}}
+		  <li>
+		    <a data-rel="link" href="joylist?post_id={{item.post_id}}">
+		      {{item.name}}
+		      <span class="{{item.user.sex | sex}} sex-age"><em class="ico ico-{{item.user.sex | sex}}"></em><em class="age">{{item.user.age}}</em></span>
+		      <span class="time">{{item.created_at | dateFormat:'yyyy-MM-dd hh:mm'}}</span>  
+		      {{if item.is_read == 0}}
+		      <em class="pull-right new"></em>
+			  {{/if}}	
+		      <p>想和你一起去：{{item.dest}}</p>
+		    </a>
+		  </li>
+		  {{/each}}
+		</ul>
+	</script>
+	{/literal}
+{/block}
+

@@ -1,0 +1,49 @@
+{extends file="../Public/base.html" }
+{block config}
+    {$title = "找驴友"}
+    {$cssArr = array("/tourpal/main")}
+    {$mainjs = "/tourpal/main"}
+{/block}
+{block content}
+    <header class="bar bar-nav">
+   		<nav>
+   		<span class="icon icon-left-nav pull-left" data-rel="back"></span>
+        <span class="title">隐私设置</span>
+        <button class="btn btn-negative pull-right btn-save">保存</button>
+        <nav>
+    </header>
+    <div class="page-content page-setting">
+    	<form id="setting_form" >
+			 <ul class="table-view single-setting">
+			  <li class="table-view-cell">
+			    向发帖人公开微信
+			    <div class="toggle" data-value="1">
+			      <div class="toggle-handle"></div>
+			    </div>
+			  </li>
+			  <li class="table-view-cell">
+			    向发帖人公开QQ
+			    <div class="toggle" data-value="2">
+			      <div class="toggle-handle"></div>
+			    </div>
+			  </li>
+			  <li class="table-view-cell">
+			    向发帖人公开手机
+			    <div class="toggle" data-value="4">
+			      <div class="toggle-handle"></div>
+			    </div>
+			  </li>
+			</ul>
+			<p>向发帖人求同行后，需向Ta公开一种联系方式</p>
+			<ul class="table-view group-setting">
+			  <li class="table-view-cell">
+			    向同行小组公开手机
+			    <div class="toggle">
+			      <div class="toggle-handle"></div>
+			    </div>
+			  </li>
+			</ul>
+			<p>向发帖人求同行后，你会加入Ta的同行小组。同行小组 内的成员均是想和Ta同行的人。</p>
+		</form>
+    </div>
+{/block}

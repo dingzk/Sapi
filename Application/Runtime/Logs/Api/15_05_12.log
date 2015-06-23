@@ -1,0 +1,58 @@
+[ 2015-05-12T15:53:23+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.254071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.254169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.052807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.052915s ]
+
+[ 2015-05-12T15:54:10+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/uploadImg
+ERR: 
+[ 2015-05-12T15:54:10+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/uploadImg
+ERR: upload img failed : a:3:{s:4:"code";i:500;s:4:"data";s:0:"";s:3:"msg";s:20:"Can't get image info";}
+[ 2015-05-12T15:54:10+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+
+[ 2015-05-12T15:54:41+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2015-05-12T15:54:43+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/uploadImg
+ERR: 
+[ 2015-05-12T15:54:43+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/uploadImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0098s ]
+

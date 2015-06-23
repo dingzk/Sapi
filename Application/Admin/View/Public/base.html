@@ -1,0 +1,16 @@
+{* 找驴友项目base *}
+{$debug = true}                 				 {* 环境配置 *}
+{$devPath = '/Public/admin'}			         {* 开发环境静态资源路径 *}
+{$distPath = '/Public/admin/dist'}               {* 线上环境静态资源路径 *}
+{if $debug}
+{assign var="path" value="`$devPath`"}
+{else}
+{assign var="path" value="`$distPath`"}
+{/if}
+{block config}{/block}
+{include '../Public/header.html'}
+<body>
+	{block content} {/block}
+    {include '../Public/footer.html'}
+</body>
+<html>

@@ -1,0 +1,254 @@
+[ 2015-04-10T20:24:03+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getLikedInfoByPostId?post_id=7&perNum=2&offset=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('7') AND `id` < 21 GROUP BY uid, post_id ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 63 行.
+
+[ 2015-04-10T20:24:08+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8] Undefined index: state E:\xampp\htdocs\tourpal\Application\Api\Controller\LikedController.class.php 第 20 行.
+ERR: 参数错误或者未定义:state
+
+[ 2015-04-10T20:25:03+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-04-10T20:25:45+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 2 AND `is_delete` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 39 AND `post_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `liked` (`uid`,`post_id`,`created_at`) VALUES ('39','2','2015-04-10 20:25:44') [ RunTime:0.0507s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-04-10T20:25:57+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-04-10T20:26:05+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 2 AND `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 39 AND `post_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-04-10T20:26:08+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 2 AND `is_delete` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 39 AND `post_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-04-10T20:26:09+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 2 AND `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 39 AND `post_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-04-10T20:26:09+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 2 AND `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 39 AND `post_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-04-10T20:26:09+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 2 AND `is_delete` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 39 AND `post_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-04-10T20:26:13+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 2 AND `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `liked` WHERE `uid` = 39 AND `post_id` = 2 [ RunTime:0.1650s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-04-10T20:26:19+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 2 AND `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 39 AND `post_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `liked` (`uid`,`post_id`,`created_at`) VALUES ('39','2','2015-04-10 20:26:19') [ RunTime:0.0793s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-04-10T20:38:13+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+
+[ 2015-04-10T20:38:15+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+
+[ 2015-04-10T20:38:16+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+
+[ 2015-04-10T20:38:16+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+
+[ 2015-04-10T20:38:17+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+
+[ 2015-04-10T20:38:17+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+
+[ 2015-04-10T20:38:49+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 2 AND `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 39 AND `post_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-04-10T20:38:50+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 2 AND `is_delete` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 39 AND `post_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-04-10T20:38:57+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+

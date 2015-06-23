@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'elong';
+	src:url('fonts/elong.eot?-bvlfrg');
+	src:url('fonts/elong.eot?#iefix-bvlfrg') format('embedded-opentype'),
+		url('fonts/elong.woff?-bvlfrg') format('woff'),
+		url('fonts/elong.ttf?-bvlfrg') format('truetype'),
+		url('fonts/elong.svg?-bvlfrg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'elong';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+
+

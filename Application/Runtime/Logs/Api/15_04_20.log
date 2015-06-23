@@ -1,0 +1,77 @@
+[ 2015-04-20T11:14:29+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2015-04-20T11:14:37+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+NOTIC: [8] Use of undefined constant JSON_BIGINT_AS_STRING - assumed 'JSON_BIGINT_AS_STRING' E:\xampp\htdocs\tourpal\Application\Service\Controller\AuthController.class.php 第 46 行.
+NOTIC: [2] json_decode() expects at most 3 parameters, 4 given E:\xampp\htdocs\tourpal\Application\Service\Controller\AuthController.class.php 第 46 行.
+
+[ 2015-04-20T11:37:45+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [8] Use of undefined constant JSON_BIGINT_AS_STRING - assumed 'JSON_BIGINT_AS_STRING' E:\xampp\htdocs\tourpal\Application\Service\Controller\AuthController.class.php 第 46 行.
+NOTIC: [2] json_decode() expects at most 3 parameters, 4 given E:\xampp\htdocs\tourpal\Application\Service\Controller\AuthController.class.php 第 46 行.
+
+[ 2015-04-20T12:19:34+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [8] Use of undefined constant JSON_BIGINT_AS_STRING - assumed 'JSON_BIGINT_AS_STRING' E:\xampp\htdocs\tourpal\Application\Service\Controller\AuthController.class.php 第 46 行.
+NOTIC: [2] json_decode() expects at most 3 parameters, 4 given E:\xampp\htdocs\tourpal\Application\Service\Controller\AuthController.class.php 第 46 行.
+
+[ 2015-04-20T14:09:14+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+NOTIC: [8] Use of undefined constant JSON_BIGINT_AS_STRING - assumed 'JSON_BIGINT_AS_STRING' E:\xampp\htdocs\tourpal\Application\Service\Controller\AuthController.class.php 第 46 行.
+NOTIC: [2] json_decode() expects at most 3 parameters, 4 given E:\xampp\htdocs\tourpal\Application\Service\Controller\AuthController.class.php 第 46 行.
+
+[ 2015-04-20T14:09:15+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Use of undefined constant JSON_BIGINT_AS_STRING - assumed 'JSON_BIGINT_AS_STRING' E:\xampp\htdocs\tourpal\Application\Service\Controller\AuthController.class.php 第 46 行.
+NOTIC: [2] json_decode() expects at most 3 parameters, 4 given E:\xampp\htdocs\tourpal\Application\Service\Controller\AuthController.class.php 第 46 行.
+
+[ 2015-04-20T14:09:15+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+NOTIC: [8] Use of undefined constant JSON_BIGINT_AS_STRING - assumed 'JSON_BIGINT_AS_STRING' E:\xampp\htdocs\tourpal\Application\Service\Controller\AuthController.class.php 第 46 行.
+NOTIC: [2] json_decode() expects at most 3 parameters, 4 given E:\xampp\htdocs\tourpal\Application\Service\Controller\AuthController.class.php 第 46 行.
+

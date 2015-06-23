@@ -1,0 +1,43 @@
+[ 2015-03-05T17:47:29+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2015-03-05T18:03:43+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2015-03-05T18:03:45+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2015-03-05T18:03:49+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2015-03-05T18:03:49+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2015-03-05T18:04:00+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+ERR: Curl failed, Error info: <url> malformed
+[ 2015-03-05T18:04:00+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+ERR: upload img failed : a:9:{s:3:"key";s:4:"file";s:4:"name";s:44:"267f9e2f0708283887639615ba99a9014c08f141.jpg";s:4:"type";s:10:"image/jpeg";s:4:"size";i:17425;s:3:"ext";s:3:"jpg";s:3:"md5";s:32:"76b67ad89989982981b7ec2c8b2c332b";s:4:"sha1";s:40:"843bd23c5f4811e5fc48ff15437435a0155991a7";s:8:"savename";s:17:"54f82a1035715.jpg";s:8:"savepath";s:9:"20150305/";}
+[ 2015-03-05T18:04:00+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+ERR: Curl failed, Error info: <url> malformed
+[ 2015-03-05T18:04:00+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+ERR: upload img failed : a:9:{s:3:"key";s:4:"file";s:4:"name";s:46:"6446027056db8afa73b23eaf953dadde1410240902.jpg";s:4:"type";s:10:"image/jpeg";s:4:"size";i:73431;s:3:"ext";s:3:"jpg";s:3:"md5";s:32:"9fa941ed227854a51edb1647387951d2";s:4:"sha1";s:40:"ae9978a9a01637cf907c559aeb861a6e42e1cc2f";s:8:"savename";s:17:"54f82a1035c80.jpg";s:8:"savepath";s:9:"20150305/";}
+[ 2015-03-05T18:04:00+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+ERR: Curl failed, Error info: <url> malformed
+[ 2015-03-05T18:04:00+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+ERR: upload img failed : a:9:{s:3:"key";s:4:"file";s:4:"name";s:44:"d01373f082025aaffa6ddbcaf9edab64034f1a57.jpg";s:4:"type";s:10:"image/jpeg";s:4:"size";i:14138;s:3:"ext";s:3:"jpg";s:3:"md5";s:32:"eb10646a1df3dff3b888df2449a386c0";s:4:"sha1";s:40:"4b3aa49b842e32c7d3db87517e118b3cd67d1b4c";s:8:"savename";s:17:"54f82a1035fad.jpg";s:8:"savepath";s:9:"20150305/";}
+[ 2015-03-05T18:04:00+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+

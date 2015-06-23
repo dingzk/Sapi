@@ -1,0 +1,9 @@
+[ 2015-05-28T11:33:34+08:00 ] 127.0.0.1 /tourpal/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Mobile\Controller\CommonController.class.php 第 21 行.
+

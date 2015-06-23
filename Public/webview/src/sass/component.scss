@@ -1,0 +1,145 @@
+//triangle
+.right-triangle-icon {
+	position: relative;
+
+	&:after {
+		right: 10px; 
+		content: ""; 
+		position: absolute; 
+		top: 40%; 
+		display: inline-block; 
+		width: 8px; 
+		height: 8px; 
+		@include transform(rotate(45deg));
+		border: 2px solid #FFFFFF; 
+		border-width: 1px 1px 0px 0px;
+	}
+}
+
+.left-triangle-icon {
+	position: relative;
+
+	&:after {
+		left: 10px; 
+		content: ""; 
+		position: absolute; 
+		top: 40%; 
+		display: inline-block; 
+		width: 8px; 
+		height: 8px; 
+		@include transform(rotate(45deg));
+		border: 2px solid #FFFFFF;
+		border-width: 0px 0px 1px 1px;
+	}
+}
+
+
+
+//switch component style
+.label-switch {
+	display: inline-block;
+	width: 52px;
+	height: 32px;
+	cursor: pointer;
+
+	.checkbox {
+		width: 52px;
+		height: 32px;
+		border-radius: 16px;
+		background: #E5E5E5;
+		position: relative;
+		cursor: pointer;
+
+		&:before {
+			position: absolute;
+			top: 2px;
+			left: 2px;
+			width: 48px;
+			height: 28px;
+			border-radius: 16px;
+			z-index: 1;
+			background: #FFFFFF;
+			@include transition-duration(.3s);
+			@include transform(scale(1));
+			content: " ";
+		}
+
+		&:after {
+			height: 28px;
+			width: 28px;
+			position: absolute;
+			border-radius: 28px;
+			z-index: 2;
+			background: #FFFFFF;
+			top: 2px;
+			left: 2px;
+			@include box-shadow(0 2px 5px rgba(0,0,0,.4));
+			@include transform(translateX(0px));
+			@include transition-duration(.3s);
+			content: " ";
+		}
+
+	}
+	.active {
+		background: #4cd964;
+		&:before {
+			@include transform(scale(0));
+		}
+		&:after {
+			@include transform(translateX(22px));
+		}
+	}
+}
+
+//checkbox component style
+.label-checkbox {
+	display: block;
+
+	.checkbox {
+		margin: 0px 5px 0px 2px;
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		border: 2px solid #757575;
+		border-radius: 3px;
+		position: relative;
+		vertical-align: middle;
+
+		input[type="checkbox"] {
+			opacity: 0.001;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+			z-index: 5;
+			display: none; //留待以后扩展
+		}
+	}
+
+	.checked {
+		border: none;
+		background-color: #E65749;
+
+		&:after {
+			content: "";
+			width: 10px;
+			height: 5px;
+			position: absolute;
+			top: 5px;
+			left: 3px;
+			border: 1px solid #FFFFFF;
+			border-width: 0px 0px 3px 3px;
+			@include transform(rotate(-45deg));
+		}
+	}
+}
+
+
+
+
+
+
+
+
+

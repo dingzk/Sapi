@@ -1,0 +1,78 @@
+{extends file="../Public/base.html" }
+{block config}
+    {$title = "艺龙驴友"}
+    {$cssArr = array("/tourpal/main")}
+    {$mainjs = "/tourpal/main"}
+{/block}
+{block content}
+  <header class="bar bar-nav">
+  		<nav>
+  			<span class="icon icon-left-nav pull-left" data-rel="back"></span>
+	        <span class="title"></span>
+	        <a class="pull-right post-btn">
+	        <span class="ico ico-post pull-left"></span>
+	        <span>发帖</span>
+	    	</a>
+    	</nav>
+  </header>
+
+  <div class="page-content page-post-list page-postlist">
+  	<div class="list-content-wrap">
+  	</div>
+  </div>
+  {* 列表魔板 *}
+  {literal}
+    <script type="text/template" id="post_list_tpl">
+    	{{each list as item }}
+      		<a href="postdetail?post_id={{item.id}}" data-rel="link">
+      		<div class="post-list" postid="{{item.id}}">
+			  	<div class="list-wrap">
+			  		<div class="list-content">
+			  			<div class="head-info">
+					  		<span class="name">{{item.user.nick_name}}</span>
+					  		<span class="sex-age {{item.user.sex | sex}}"><em class="ico ico-{{item.user.sex | sex}}"></em><em class="age">{{item.user.age}}</em></span>
+					  		{{if item.is_delete > 0}}
+					  		<span class="ico ico-postend pull-right"></span>
+					  		{{else}}
+					  		<span class="ico ico-postin pull-right"></span>
+					  		{{/if}}
+					  		<br>
+					  		<span class="time">{{item.created_at | dateFormat:'yyyy-MM-dd hh:mm'}}</span>
+					  	</div>
+				  		<span><em class="ico ico-dest"></em><em class="gray"> 行程：</em> {{item.dest.replace(/,/g , '、')}}</span></br>
+				  		<span><em class="ico ico-date"></em><em class="gray"> 时间：</em> {{item.start_at}}出发（共{{item.days}}天）</span></br>
+				  		<p class="list-text">
+				  			{{item.content}}
+				  		</p>
+				  		<ul>
+				  			{{each item.thumb as img i}}
+				  			<li><img src="{{img}}" alt="" preview="{{item.preview[i]}}"></li>
+				  			{{/each}}
+				  		</ul>
+				  		<div class="clearfix f11">
+				  			{{if item.post_place}}
+					  		<div class="position pull-left"><em class="ico ico-position"></em>{{item.post_place}}</div>
+					  		{{/if}}
+				  			<span class="pull-right join-count">求同行 <em>{{item.like_num}}</em></span>
+				  			<span class="pull-right">浏览 <em>{{item.pv}}</em></span>
+				  		</div>
+			  		</div>
+			  		{{if item.is_my == 0 && item.is_delete == 0}}
+				  	<div class="join">
+				  		{{if item.is_liked == 0 }}
+				  		<em class="ico ico-love"></em>
+				  		<em class="text">求同行</em>
+				  		{{else}}
+						<em class="ico ico-love active"></em>
+						<em class="text">已约行</em>
+						{{/if}}
+				    </div>
+				    {{/if}}
+			  	</div>
+		  	</div>
+		  	</a>
+        {{/each}}
+    </script>
+   {/literal}
+	
+{/block}

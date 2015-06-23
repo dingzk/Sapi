@@ -1,0 +1,66 @@
+{extends file="../Public/base.html" }
+{block config}
+    {$title = "艺龙驴友"}
+    {$cssArr = array("/tourpal/main")}
+    {$mainjs = "/tourpal/main"}
+{/block}
+{block content}
+    <header class="bar bar-nav" style="padding: 0 1% 0 5%;">
+
+      <nav>
+        <span class="title pull-left" style="margin:0;">首页</span>
+        <a class="ico ico-person pull-right" href="message" data-rel="link" needlogin="true"></a>
+        <a class="ico ico-message pull-right"  href="myjoy" data-rel="link" needlogin="true"><em class="new-message none"></em></a>
+        <span class="ico ico-post pull-right  post-btn"></span>
+      </nav>
+    </header>
+    <div class="page-content">
+       <br/>
+       <form class="input-group ">
+          <div class="input-row button-line">
+            <label>城市</label>
+            <input id="city_selector" type="text" class="name" placeholder="请选择城市" readonly="readonly" >
+            <span class="icon icon-search" id="btn_search"></span>
+            <div class="triangle-right-buttom"></div>
+          </div>
+        </form>
+        <div class="hot-city">
+           <h5><span>热门城市</span></h5>
+           <ul class="hot-city-list">
+                <li>
+                    <img src="http://pavo.elongstatic.com/i/tourpal_184x184/0000ylsn.jpg" alt="">
+                    <span>&nbsp;</span>
+                </li>
+
+                <li>
+                    <img src="http://pavo.elongstatic.com/i/tourpal_184x184/0000ylsn.jpg" alt="">
+                    <span>&nbsp;</span>
+                </li>
+                
+                <li>
+                     <img src="http://pavo.elongstatic.com/i/tourpal_184x184/0000ylsn.jpg" alt="">
+                    <span>&nbsp;</span>
+                </li>
+                
+                <li>
+                    <img src="http://pavo.elongstatic.com/i/tourpal_184x184/0000ylsn.jpg" alt="">
+                    <span>&nbsp;</span>
+                </li>
+            </ul>
+        </div>
+        <p class="feedback">
+          <a class="" href="feedback" data-rel="link">意见反馈</a>
+        </p>
+    </div>
+    {* 热门城市魔板 *}
+    {literal}
+      <script type="text/template" id="hot_city_tpl">
+        {{each data as item}}
+        <li>
+            <a data-rel="link" href="postlist?city={{item.name}}"><img src="{{item.url}}" alt="{{item.name}}"></a>
+            <span>{{item.name}}</span>
+        </li>
+        {{/each}}
+      </script>
+    {/literal}
+{/block}

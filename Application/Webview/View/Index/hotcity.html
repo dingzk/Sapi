@@ -1,0 +1,117 @@
+{extends file="../Public/base.html" }
+{block config}
+    {$title = "找驴友"}
+    {$cssArr = array("/tourpal/main")}
+    {$mainjs = "/tourpal/main"}
+{/block}
+{block content}
+    <header class="bar bar-nav" style="padding: 0 1% 0 5%;">
+      <nav>
+        <span class="title">首页</span>
+        <a class="ico ico-person pull-right" href="message" data-rel="link" needlogin="true"></a>
+        <a class="ico ico-message pull-right"  href="myjoy" data-rel="link" needlogin="true"><em class="new-message none"></em></a>
+        <span class="ico ico-post pull-right  post-btn"></span>
+      </nav>
+    </header>
+    <div class="page-content page-home">
+       <div class="search-form" id="city_selector">
+            <span>搜索：地点、景区</span>
+        </div>
+        <!--轮播图-->
+        <div class="ad" id="slider">
+          <div class="sliderwrap">
+              <ul class="wait">
+                  <li>
+                      <a href="http://m.cp.360.cn/group/group?gid=4?reffer=touch">
+                          <img src="http://p1.qhimg.com/t01861397bf8b658125.png" alt="妹子圈">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="http://m.cp.360.cn/group/post?gid=2&pid=9596">
+                          <img src="http://p0.qhimg.com/t01606171f9aee83588.png" alt="免费猜球赢红包">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="http://m.cp.360.cn/group/group?gid=1">
+                          <img src="http://p8.qhimg.com/t01c27784b4d3445ed9.png" alt="足球圈">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="http://m.cp.360.cn/group/group?gid=4">
+                          <img src="http://p6.qhimg.com/t01af85ce34dc70678b.png" alt="妹子圈">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="http://m.cp.360.cn/group?reffer=touch">
+                          <img src="http://p5.qhimg.com/t01ae48b62177c6818c.png" alt="圈子">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="http://m.cp.360.cn/activity/bonusyh?reffer=touch">
+                          <img src="http://p0.qhimg.com/t013aff61ca22838406.png" alt="奖金优化">
+                      </a>
+                  </li>
+              </ul>
+          </div>
+          <div class="indicator">
+          </div>
+      </div>
+        <div class="hot-theme">
+           <h5><span>热门主题</span></h5>
+           <ul class="hot-theme-list">
+              <li>
+                  <a data-rel="link" href="postlist?city=杭州"><img src="http://pavo.elongstatic.com/i/tourpal_1020x390/0000yPGI.jpg" alt="杭州"></a>
+                  <span>杭州</span>
+              </li>
+              
+              <li>
+                  <a data-rel="link" href="postlist?city=杭州"><img src="http://pavo.elongstatic.com/i/tourpal_1020x390/0000yPGI.jpg" alt="杭州"></a>
+                  <span>杭州</span>
+              </li>
+              
+              <li>
+                  <a data-rel="link" href="postlist?city=杭州"><img src="http://pavo.elongstatic.com/i/tourpal_1020x390/0000yPGI.jpg" alt="杭州"></a>
+                  <span>杭州</span>
+              </li>
+        </ul>
+        </div>
+        <div class="hot-city">
+           <h5><span>热门城市</span></h5>
+           <ul class="hot-city-list">
+            <li>
+                <img src="http://pavo.elongstatic.com/i/tourpal_184x184/0000ylsn.jpg" alt="">
+                <span>&nbsp;</span>
+            </li>
+
+            <li>
+                <img src="http://pavo.elongstatic.com/i/tourpal_184x184/0000ylsn.jpg" alt="">
+                <span>&nbsp;</span>
+            </li>
+            
+            <li>
+                 <img src="http://pavo.elongstatic.com/i/tourpal_184x184/0000ylsn.jpg" alt="">
+                <span>&nbsp;</span>
+            </li>
+            
+            <li>
+                <img src="http://pavo.elongstatic.com/i/tourpal_184x184/0000ylsn.jpg" alt="">
+                <span>&nbsp;</span>
+            </li>
+        </ul>
+        </div>
+        <p class="feedback">
+          <a class="" href="feedback" data-rel="link">意见反馈</a>
+        </p>
+    </div>
+    {* 热门城市魔板 *}
+    {literal}
+      <script type="text/template" id="hot_city_tpl">
+        {{each data as item}}
+        <li>
+            <a data-rel="link" href="postlist?city={{item.name}}"><img src="{{item.url}}" alt="{{item.name}}"></a>
+            <span><em class="city">{{item.name}}</em><br><em class="desc">{{item.desc}}</em></span>
+        </li>
+        {{/each}}
+      </script>
+    {/literal}
+{/block}

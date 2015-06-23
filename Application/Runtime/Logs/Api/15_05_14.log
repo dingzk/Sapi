@@ -1,0 +1,30 @@
+[ 2015-05-14T18:29:50+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Tags/getTags
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0044s ]
+SQL: SELECT `tag` FROM `tags` WHERE `status` = 0  [ RunTime:0.0006s ]
+
+[ 2015-05-14T18:42:08+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Tags/getTags
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0027s ]
+SQL: SELECT `tag` FROM `tags` WHERE `status` = 0  [ RunTime:0.0005s ]
+
+[ 2015-05-14T20:47:10+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Tags/getTags
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0022s ]
+SQL: SELECT `tag` FROM `tags` WHERE `status` = 0  [ RunTime:0.0004s ]
+

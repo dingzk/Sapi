@@ -1,0 +1,55 @@
+{extends file="../Public/base.html" }
+{block config}
+    {$title = "找驴友"}
+    {$cssArr = array("/tourpal/main")}
+    {$mainjs = "/tourpal/main"}
+{/block}
+{block content}
+  <header class="bar bar-nav">
+      <nav>
+          <span class="title">个人主页</span>
+      </nav>
+  </header>
+   <div class="page-content page-message">
+        <div class="bannar">
+          <div class="user-info">
+          </div>
+        </div>
+        <ul class="table-view">
+          <li>
+            <a href="mycard" data-rel="link">
+              <span class="ico ico-edit"></span>
+              <span class="text">个人资料<span class="icon icon-right-nav pull-right gray"></span></span>
+            </a>
+          </li>
+          <li>
+            <a href="mypost" data-rel="link">
+              <span class="ico ico-doc"></span>
+              <span class="text">
+              我的发帖
+              <span class="icon icon-right-nav pull-right gray"></span>
+              <span class="badge pull-right"><em class="post-count"></em>篇</span>
+
+              </span>
+              
+            </a>
+          </li>
+          <li>
+            <a  href="myjoy" data-rel="link">
+              <span class="ico ico-joy"></span>
+              <span class="text" style="border-bottom:none;">
+              求同行的人
+              <span class="icon icon-right-nav pull-right gray"></span>
+              <span class="badge pull-right"></em><em class="new-message none"></em></span>
+              </span>
+            </a>
+          </li>
+        </ul>
+    </div>
+    {literal}
+    <script type="text/template" id="user_info_tpl">
+      <img src="{{ 'http://pavo.elongstatic.com/i/ori/0000AEul.jpg' || head_img}}">
+      <span>{{nick_name}}</span>
+    </script> 
+    {/literal}
+{/block}

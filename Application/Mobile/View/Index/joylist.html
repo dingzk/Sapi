@@ -1,0 +1,39 @@
+{extends file="../Public/base.html" }
+{block config}
+    {$title = "艺龙驴友"}
+    {$cssArr = array("/tourpal/main")}
+    {$mainjs = "/tourpal/main"}
+{/block}
+{block content}
+    <header class="bar bar-nav">
+   		<nav>
+   		<span class="icon icon-left-nav pull-left" data-rel="back"></span>
+        <span class="title">同行小组</span>
+        </nav>
+    </header>
+    <div class="page-content page-joylist">
+		<div class="list-content-wrap"></div>
+    </div>
+
+	{* 列表魔板 *}
+	{literal}
+	<script type="text/template" id="joy_list_tpl">
+		<ul class="table-view can-copy">
+		{{each list as item}}
+		<li class="table-view-cell">
+		      <span class="name">
+		      	<em>{{item.name}}</em><br/>
+		      	<span class="{{item.user.sex | sex}} sex-age"><em class="ico ico-{{item.user.sex | sex}}"></em><em class="age">{{item.user.age}}</em></span>
+		      </span>
+		      <span class="contact">
+			      <em><i class="ico ico-tel"></i>{{if item.user.phone}}<a href="tel:{{item.user.phone}}">{{item.user.phone}}</a>{{else}}未填写{{/if}}
+			      </em>
+			      <em><i class="ico ico-qq"></i>{{item.user.qq || '未填写'}}</em>
+			      <em style="width:100%;"><i class="ico ico-weixin"></i>{{item.user.weixin || '未填写'}}</em>
+			  </span>
+		 </li>
+		 {{/each}}
+		</ul>
+	</script>
+	{/literal}
+{/block}

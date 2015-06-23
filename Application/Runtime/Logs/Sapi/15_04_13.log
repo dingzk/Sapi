@@ -1,0 +1,8 @@
+[ 2015-04-13T12:37:38+08:00 ] 127.0.0.1 /tourpal/index.php//Sapi/User/getUserInfoById?d=JGVtDl6mIxxzZGfG4SR3KiFx%2BvBKZgQkWuOiAzcyB56oK1A8mgC7R81xW%2Fy2HVAmY%2BOcMu2KItsK%0AT1tGkTaMQssH9X5HLGI8ujN0vbdwVaPOdynYRCmRIBZmx6a6EptQk1lExH8c92fwBIj7hyo1xw%3D%3D%0A&v=a95edc0c2cb2ea23db6597706a935566
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+

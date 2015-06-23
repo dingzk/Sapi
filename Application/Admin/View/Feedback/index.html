@@ -1,0 +1,52 @@
+{extends file="../Public/base.html" }
+{block config}
+    {$title = "找驴友运营后台"}
+    {$cssArr = array('css/common/main')}
+    {$mainjs = "page/Feedback/index"}
+{/block}
+{block content}
+    {include '../Module/nav.html'}
+    <div class="container tourpal-content">
+      <form class="form-inline" id="query">
+        <div class="form-group">
+          <label for="exampleInputPassword1">开始日期：</label>
+          <input type="date" class="form-control" name="startTime" value="{$startTime}">
+        </div>
+        <div class="form-group">
+           <label for="exampleInputPassword1">结束日期：</label>
+          <input type="date" class="form-control" name="endTime" value="{$endTime}">
+        </div>
+        <button id="submit" class="btn btn-default">查询</button>
+      </form>
+      <div class="page-header">
+        <h1>用户反馈</h1>
+      </div>
+      <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>UID</th>
+                <th width="50%">反馈内容</th>
+                <th>提交时间</th>
+              </tr>
+            </thead>
+            <tbody id="post_list">
+             
+            </tbody>
+      </table>
+      <span id="total" class="item-total">共 <b>0</b> 条</span>
+      <ul id="page"></ul>
+   </div>
+  {literal}
+   <script type="text/template" id="post_list_tpl">
+     {{each list as item}}
+     <tr>
+        <td>{{item.id}}</td>
+        <td>{{item.uid}}</td>
+        <td>{{item.bugs}}</td>
+        <td>{{item.created_at}}</td>
+     </tr>
+     {{/each}}
+   </script>
+  {/literal}
+{/block}

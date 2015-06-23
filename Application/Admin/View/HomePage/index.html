@@ -1,0 +1,247 @@
+{extends file="../Public/base.html" }
+{block config}
+    {$title = "找驴友运营后台"}
+    {$cssArr = array('css/common/main')}
+    {$mainjs = "page/HomePage/index"}
+{/block}
+{block content}
+    {include '../Module/nav.html'}
+    <div class="container tourpal-content bs-example-tabs">
+        <ul id="myTab" class="nav nav-tabs">
+            <li class="active getdata">
+                <a href="#ad" data-toggle="tab">
+                    广告位管理
+                </a>
+            </li>
+            <li class="getdata">
+                <a href="#city" data-toggle="tab">热门城市管理</a>
+            </li>
+            <li class="getdata">
+                <a href="#tag" data-toggle="tab">
+                    标签管理
+                </a>
+            </li>
+            <li>
+                <a href="#upload" data-toggle="tab">
+                    上传图片
+                </a>
+            </li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+            <div class="row"><label></label></div>
+            <div class="tab-pane fade in active" id="ad">
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-2">活动名称</div>
+                    <div class="col-md-2">图片</div>
+                    <div class="col-md-2">落地页</div>
+                </div>
+                <form class="form-inline">
+                    <div class="row" id="adlist">
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <input class="btn btn-default addrow" type="button" value="新增广告位" title="ad">
+                        </div>
+                        <div class="col-md-2">
+                            <input class="btn btn-default save" type="button" value="保存">
+                        </div>
+                        <div class="col-md-2">
+                            <input class="btn btn-default preview" type="button" value="预览">
+                        </div>
+                        <div class="col-md-2">
+                            <input class="btn btn-default publish" type="button" value="发布">
+                        </div>
+                    </div>
+                    <input type="hidden" name="type" value="1">
+                </form>
+                <div class="hidden" id="adhide">
+                    <div class="row">
+                        <div class="col-md-2">轮播图</div>
+                        <div class="form-group col-md-2">
+                            <input type="text" name="title[]" class="form-control" placeholder="活动名称" value="">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <input type="text" name="img[]" class="form-control" placeholder="图片" value="">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <input type="text" name="target_url[]" class="form-control" placeholder="落地页" value="">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <input class="btn btn-default delbtn" type="button" value="删除">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="city">
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-2">城市名称</div>
+                    <div class="col-md-2">城市简介</div>
+                    <div class="col-md-2">图片</div>
+                    <div class="col-md-2">落地页</div>
+                </div>
+                <form class="form-inline">
+                    <div class="row" id="citylist">
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <input class="btn btn-default addrow" type="button" value="新增热门城市" title="city">
+                        </div>
+                        <div class="col-md-2">
+                            <input class="btn btn-default save" type="button" value="保存">
+                        </div>
+                        <div class="col-md-2">
+                            <input class="btn btn-default preview" type="button" value="预览">
+                        </div>
+                        <div class="col-md-2">
+                            <input class="btn btn-default publish" type="button" value="发布">
+                        </div>
+                    </div>
+                    <input type="hidden" name="type" value="2">
+                </form>
+                <div class="hidden" id="cityhide">
+                    <div class="row">
+                        <div class="col-md-2">热门城市</div>
+                        <div class="form-group col-md-2">
+                            <input type="text" name="title[]" class="form-control" placeholder="城市名称" value="">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <input type="text" name="desc[]" class="form-control" placeholder="城市简介" value="">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <input type="text" name="img[]" class="form-control" placeholder="图片" value="">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <input type="text" name="target_url[]" class="form-control" placeholder="落地页" value="">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <input class="btn btn-default delbtn" type="button" value="删除">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="tag">
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-2">标签名称</div>
+                    <div class="col-md-2">图片</div>
+                    <div class="col-md-2">落地页</div>
+                </div>
+                <form class="form-inline">
+                    <div class="row" id="taglist">
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <input class="btn btn-default addrow" type="button" value="新增活动标签" title="tag">
+                        </div>
+                        <div class="col-md-2">
+                            <input class="btn btn-default save" type="button" value="保存">
+                        </div>
+                        <div class="col-md-2">
+                            <input class="btn btn-default preview" type="button" value="预览">
+                        </div>
+                        <div class="col-md-2">
+                            <input class="btn btn-default publish" type="button" value="发布">
+                        </div>
+                    </div>
+                    <input type="hidden" name="type" value="3">
+                </form>
+                <div class="hidden" id="taghide">
+                    <div class="row">
+                        <div class="col-md-2">旅行主题</div>
+                        <div class="form-group col-md-2">
+                            <input type="text" name="title[]" class="form-control" placeholder="活动名称" value="">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <input type="text" name="img[]" class="form-control" placeholder="图片" value="">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <input type="text" name="target_url[]" class="form-control" placeholder="落地页" value="">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <input class="btn btn-default delbtn" type="button" value="删除">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="upload">
+                <div class="row">
+                    <form class="form-inline" target="hidden_frame" id="formImg" action="HomePage/upload" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label>选择文件：</label>
+                            <input type="file" class="form-control" name="file">
+                            <input class="btn btn-default upload" type="button" value="上传">
+                        </div>
+                    </form>
+                    <iframe style="display:none" name='hidden_frame' id="hidden_frame"></iframe>
+                </div>
+                <div class="row" id="imgtip" class="hidden">
+                    上传结果 ：<span></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="alert fade in" id="tooltip" style="display: none;width:50%; margin:0 auto;color:#fff;position: absolute;top: 30%;left: 25%">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+        <span>Best check yo self, you're not looking too good.</span>
+    </div>
+    {literal}
+        <script type="text/template" id="adlist_tpl">
+            {{each list as item i}}
+            <div class="row">
+                <div class="col-md-2 text-center vertical-middle-md">轮播图{{i + 1}}</div>
+                <div class="form-group col-md-2">
+                    <input type="text" name="title[]" class="form-control" placeholder="活动名称" value="{{item.title}}">
+                </div>
+                <div class="form-group col-md-2">
+                    <input type="text" name="img[]" class="form-control" placeholder="图片" value="{{item.img}}">
+                </div>
+                <div class="form-group col-md-2">
+                    <input type="text" name="target_url[]" class="form-control" placeholder="落地页" value="{{item.target_url}}">
+                </div>
+            </div>
+            {{/each}}
+        </script>
+        <script type="text/template" id="citylist_tpl">
+            {{each list as item i}}
+            <div class="row">
+                <div class="col-md-2 text-center">热门城市{{i + 1}}</div>
+                <div class="form-group col-md-2">
+                    <input type="text" name="title[]" class="form-control" placeholder="城市名称" value="{{item.title}}">
+                </div>
+                <div class="form-group col-md-2">
+                    <input type="text" name="desc[]" class="form-control" placeholder="城市简介" value="{{item.desc}}">
+                </div>
+                <div class="form-group col-md-2">
+                    <input type="text" name="img[]" class="form-control" placeholder="图片" value="{{item.img}}">
+                </div>
+                <div class="form-group col-md-2">
+                    <input type="text" name="target_url[]" class="form-control" placeholder="落地页" value="{{item.target_url}}">
+                </div>
+            </div>
+            {{/each}}
+        </script>
+        <script type="text/template" id="taglist_tpl">
+            {{each list as item i}}
+            <div class="row">
+                <div class="col-md-2 text-center">旅行主题{{i + 1}}</div>
+                <div class="form-group col-md-2">
+                    <input type="text" name="title[]" class="form-control" placeholder="活动名称" value="{{item.title}}">
+                </div>
+                <div class="form-group col-md-2">
+                    <input type="text" name="img[]" class="form-control" placeholder="图片" value="{{item.img}}">
+                </div>
+                <div class="form-group col-md-2">
+                    <input type="text" name="target_url[]" class="form-control" placeholder="落地页" value="{{item.target_url}}">
+                </div>
+            </div>
+            {{/each}}
+        </script>
+    {/literal}
+{/block}
+
+
+

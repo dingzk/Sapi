@@ -1,0 +1,59 @@
+.page-message{
+    .bannar {
+    	width:100%;
+    	height:150px;
+    	background:url('http://pavo.elongstatic.com/i/ori/0000ADH2.jpg');
+    	background-size: 100% 100%;
+    	position:relative;
+    	.user-info{
+    		width:80px;
+    		height:110px;
+    		text-align:center;
+    		color:#fff;
+    		position:absolute;
+    		top: 0; 
+    		left: 0; 
+    		bottom: 0; 
+    		right: 0;
+    		margin:auto;
+    		img{
+    			width:100%;
+    			border-radius:5px;
+    		}
+    	}
+    }
+	.table-view {
+		margin-top: 20px;
+		padding:0 5%;
+		border-top: 1px solid #d0d0d0;
+		border-bottom: 1px solid #d0d0d0;
+		li{
+			border-color: #d0d0d0;
+			padding:0;
+			line-height:50px;
+			position: relative;
+			overflow:hidden;
+		}
+		span{
+			display:inline-block;
+		}	
+	    .text {
+	    	float:right;
+	    	text-align:left;
+	    	width:85%;
+	    	border-bottom: 1px solid #d0d0d0;
+	    	color:#6c6c6c;
+	    }
+	}
+	background: #f9f9f9;
+	.new-message{
+		display:inline;
+		border-radius:10px;
+		padding:0 5px;
+		font-size:1rem;
+		&.none {
+			display:none;
+		}
+	}
+
+}

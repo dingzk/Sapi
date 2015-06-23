@@ -1,0 +1,41 @@
+.page-myjoy{
+	line-height: 30px;
+	li{ 
+	    position:relative;
+	    padding: 5px 5% 0 5%;
+	    border-bottom:1px solid #BEBEBE;
+	    a {
+	    	color:#5c5c5c;
+	    }
+		.sex-age {
+		  display: inline-block;
+		  width: 41px;
+		  height: 16px;
+		  border-radius: 3px;
+		  color: #fff;
+		  vertical-align: text-bottom;
+		  text-align: center;
+		  line-height: 18px;
+		  .age {
+			  vertical-align: top;
+			  font-size: 13px;
+		  }
+		}
+		.time {
+		  color: #b0b0b0;
+		  font-size: 11px;
+		  float: right;
+		}
+	}
+	.new {
+		font-size:13px;
+		background-color:#e65749;
+		display:block;
+		width:8px;
+		height:8px;
+		border-radius:5px;
+		position:absolute;
+		right:5%;
+		top:41px;
+	}
+}

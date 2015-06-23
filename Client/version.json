@@ -1,0 +1,28 @@
+{
+    "client_update": {
+        "version": "1.1.0",
+        "code": 103,
+        "description": "艺龙驴友安卓端,v1.1.0",
+        "author": "sdu",
+        "apk": "http://ly.elong.com/Client/apk/v1.1/tourpal_V1.1.0.002-release.apk",
+        "ios": "http://ly.elong.com/Client/apk/v1.0/艺龙驴友_1.0.1.apk"
+    },
+    "data_update": {
+        "dest": {
+            "version": "1.0.0",
+            "code": 0,
+            "description": "数据文件更新地址",
+            "author": "sdu",
+            "apk": "http://ly.elong.com/Client/apk/data/dest.db",
+            "ios": "http://ly.elong.com/Client/apk/data/dest.db"
+        },
+        "tags": {
+            "version": "1.0.0",
+            "code": 0,
+            "description": "标签文件更新",
+            "author": "sdu",
+            "apk": "http://ly.elong.com/Client/apk/data/tags.db",
+            "ios": "http://ly.elong.com/Client/apk/data/tags.db"
+        }
+    }
+}

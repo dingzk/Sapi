@@ -1,0 +1,1075 @@
+[ 2015-03-23T18:06:20+08:00 ] 127.0.0.1 /tourpal/index.php/Api/FeedBack/feedBack?bugs=123
+ERR: 无法加载控制器:FeedBack
+
+[ 2015-03-23T18:06:59+08:00 ] 127.0.0.1 /tourpal/index.php/Api/FeedBack/feedBack?bugs=123
+ERR: 无法加载控制器:FeedBack
+
+[ 2015-03-23T18:08:27+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feekback/feekback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+ERR: 无法加载控制器:Feekback
+
+[ 2015-03-23T18:08:45+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 AND `bugs` = null ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('0',' 电话:  qq:  邮箱: ','2015-03-23 18:08:45') [ RunTime:0.0602s ]
+
+[ 2015-03-23T18:08:48+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 AND `bugs` = null ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('0',' 电话:  qq:  邮箱: ','2015-03-23 18:08:48') [ RunTime:0.0513s ]
+
+[ 2015-03-23T18:08:48+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 AND `bugs` = null ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('0',' 电话:  qq:  邮箱: ','2015-03-23 18:08:48') [ RunTime:0.0576s ]
+
+[ 2015-03-23T18:10:29+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 AND `bugs` = null ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('0',' 电话:  qq:  邮箱: ','2015-03-23 18:10:29') [ RunTime:0.0682s ]
+
+[ 2015-03-23T18:10:29+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 AND `bugs` = null ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('0',' 电话:  qq:  邮箱: ','2015-03-23 18:10:29') [ RunTime:0.0622s ]
+
+[ 2015-03-23T18:10:29+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 AND `bugs` = null ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('0',' 电话:  qq:  邮箱: ','2015-03-23 18:10:29') [ RunTime:0.0778s ]
+
+[ 2015-03-23T18:10:29+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 AND `bugs` = null ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('0',' 电话:  qq:  邮箱: ','2015-03-23 18:10:29') [ RunTime:0.0367s ]
+
+[ 2015-03-23T18:10:29+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 AND `bugs` = null ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('0',' 电话:  qq:  邮箱: ','2015-03-23 18:10:29') [ RunTime:0.0518s ]
+
+[ 2015-03-23T18:10:29+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 AND `bugs` = null ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('0',' 电话:  qq:  邮箱: ','2015-03-23 18:10:29') [ RunTime:0.0579s ]
+
+[ 2015-03-23T18:10:30+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 AND `bugs` = null ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('0',' 电话:  qq:  邮箱: ','2015-03-23 18:10:30') [ RunTime:0.0662s ]
+
+[ 2015-03-23T18:10:30+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 AND `bugs` = null ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('0',' 电话:  qq:  邮箱: ','2015-03-23 18:10:30') [ RunTime:0.0343s ]
+
+[ 2015-03-23T18:10:30+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 AND `bugs` = null ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('0',' 电话:  qq:  邮箱: ','2015-03-23 18:10:30') [ RunTime:0.0545s ]
+
+[ 2015-03-23T18:10:31+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 AND `bugs` = null ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('0',' 电话:  qq:  邮箱: ','2015-03-23 18:10:31') [ RunTime:0.0408s ]
+
+[ 2015-03-23T18:10:31+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 AND `bugs` = null ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 14 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('0',' 电话:  qq:  邮箱: ','2015-03-23 18:10:31') [ RunTime:0.0403s ]
+
+[ 2015-03-23T18:15:38+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('0',' 电话:  qq:  邮箱: ','2015-03-23 18:15:38') [ RunTime:0.0513s ]
+
+[ 2015-03-23T18:15:39+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+
+[ 2015-03-23T18:15:40+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+
+[ 2015-03-23T18:15:40+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+
+[ 2015-03-23T18:15:40+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+
+[ 2015-03-23T18:15:40+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 0 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 13 行.
+
+[ 2015-03-23T18:25:49+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('2130706433',' 电话:  qq:  邮箱: ','2015-03-23 18:25:48') [ RunTime:0.0429s ]
+
+[ 2015-03-23T18:25:49+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:25:50+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:25:50+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:25:51+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:25:51+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:25:51+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:25:51+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:25:51+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:25:51+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:25:52+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:25:52+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:25:52+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:25:52+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:26:10+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 21 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 21 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 21 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('2130706433',' 电话:  qq:  邮箱: ','2015-03-23 18:26:10') [ RunTime:0.0539s ]
+
+[ 2015-03-23T18:27:08+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0029s ]
+
+[ 2015-03-23T18:27:09+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+
+[ 2015-03-23T18:27:09+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0028s ]
+
+[ 2015-03-23T18:27:10+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0032s ]
+
+[ 2015-03-23T18:27:10+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined index: bugs E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 18 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0022s ]
+
+[ 2015-03-23T18:27:15+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('2130706433','123 电话:  qq:  邮箱: ','2015-03-23 18:27:15') [ RunTime:0.0521s ]
+
+[ 2015-03-23T18:27:17+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:27:17+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:27:17+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:27:17+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:27:18+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:27:18+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:27:18+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+
+[ 2015-03-23T18:27:23+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Service\Model\FeedbackModel.class.php 第 20 行.
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('2130706433','123 电话:  qq:  邮箱: ','2015-03-23 18:27:23') [ RunTime:0.0745s ]
+
+[ 2015-03-23T18:30:48+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('2130706433','123','2015-03-23 18:30:48') [ RunTime:0.0621s ]
+
+[ 2015-03-23T18:30:48+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-03-23T18:30:49+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-03-23T18:30:49+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-03-23T18:30:49+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-03-23T18:31:45+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('2130706433','123','2015-03-23 18:31:45') [ RunTime:0.0386s ]
+
+[ 2015-03-23T18:31:46+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-03-23T18:31:46+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-03-23T18:31:47+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-03-23T18:31:47+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-03-23T18:31:47+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-03-23T18:31:47+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-03-23T18:31:47+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-03-23T18:31:48+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-03-23T18:45:19+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 21 行.
+NOTIC: [8] Undefined index: phone E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 22 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('2130706433','123','2015-03-23 18:45:19') [ RunTime:0.0540s ]
+
+[ 2015-03-23T18:45:25+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123&phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 21 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('2130706433','123 电话: 123','2015-03-23 18:45:25') [ RunTime:0.0640s ]
+
+[ 2015-03-23T18:45:36+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123&phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 21 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `feedback` (`uid`,`bugs`,`created_at`) VALUES ('2130706433','123 电话: 123','2015-03-23 18:45:36') [ RunTime:0.0521s ]
+
+[ 2015-03-23T18:45:37+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123&phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 21 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-03-23T18:45:37+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123&phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 21 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-03-23T18:45:37+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123&phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 21 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-03-23T18:45:38+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123&phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 21 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-03-23T18:45:38+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Feedback/feedback?bugs=123&phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+NOTIC: [8] Undefined index: qq E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 20 行.
+NOTIC: [8] Undefined index: email E:\xampp\htdocs\tourpal\Application\Api\Controller\FeedbackController.class.php 第 21 行.
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `feedback` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `feedback` WHERE `uid` = 2130706433 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+

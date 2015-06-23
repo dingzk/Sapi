@@ -1,0 +1,44 @@
+{extends file="../Public/base.html" }
+{block config}
+    {$title = "找驴友"}
+    {$cssArr = array("/tourpal/main")}
+    {$mainjs = "/tourpal/main"}
+{/block}
+{block content}
+    <header class="bar bar-nav">
+   		<nav>
+        <span class="title">个人信息</span>
+        <nav>
+    </header>
+    <div class="page-content page-card can-copy">
+    	<form class="input-group" id="card_form">
+		  <div class="input-row">
+		    <label> 昵称：</label>
+		    <input type="text" name="nick_name" readonly='true'>
+		  </div>
+		  <div class="input-row">
+		    <label> 性别：</label>
+		    <select name="sex" readonly='true'>
+		    	<option value="1">男</option>
+		    	<option value="2">女</option>
+		    </select>
+		  </div>
+		  <div class="input-row">
+		    <label> 年龄：</label>
+		    <input type="text" name="age" readonly='true'>
+		  </div>
+		  <div class="input-row">
+		    <label> 微信：</label>
+		    <input type="text" name="weixin" readonly='true'>
+		  </div>
+		  <div class="input-row">
+		    <label> 手机：</label>
+		    <input type="text" name="phone" readonly='true'>
+		  </div>
+		  <div class="input-row border-none" readonly='true'>
+		    <label> QQ：</label>
+		    <input type="text" name="qq" readonly='true'>
+		  </div>
+		</form>
+    </div>
+{/block}

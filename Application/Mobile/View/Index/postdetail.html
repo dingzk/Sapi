@@ -1,0 +1,144 @@
+{extends file="../Public/base.html" }
+{block config}
+    {$title = "找驴友"}
+    {$cssArr = array("/tourpal/main")}
+    {$mainjs = "/tourpal/main"}
+{/block}
+{block content}
+  <header class="bar bar-nav">
+  		<nav>
+  		<span class="icon icon-left-nav pull-left" data-rel="back"></span>
+        <span class="title">详情</span>
+       	<span class="icon icon-more text-right pull-right"></span>
+        <nav>
+  </header>
+  <ul class="table-view popover">
+  </ul>
+  <div class="page-content page-post-list page-postdetail">
+  	<div class="post-detail-wrap">
+  	</div>
+  </div>
+  <footer></footer>
+  <div id="touchStyleWeixinShare"><span>点击右上角<br>马上分享到朋友圈吧</span></div>
+  {* 列表魔板 *}
+  {literal}
+    <script type="text/template" id="post_detail_tpl">
+      		<div class="post-list" postid="{{postInfo.id}}">
+			  	<div class="list-wrap">
+			  		<div class="list-content">
+			  			<div class="head-info">
+					  		<span class="name">{{postInfo.user.nick_name}}</span>
+					  		<span class="sex-age {{postInfo.user.sex | sex}}"><em class="ico ico-{{postInfo.user.sex | sex}}"></em><em class="age">{{postInfo.user.age}}</em></span>
+					  		{{if postInfo.is_delete > 0}}
+					  		<span class="ico ico-postend pull-right"></span>
+					  		{{else}}
+					  		<span class="ico ico-postin pull-right"></span>
+					  		{{/if}}
+					  		<br>
+					  		<span class="time">{{postInfo.created_at | dateFormat:'yyyy-MM-dd hh:mm'}}</span>
+					  	</div>
+				  		<span><em class="ico ico-dest"></em><em class="gray"> 行程：</em> {{postInfo.dest.replace(/,/g , '、')}}</span></br>
+				  		<span><em class="ico ico-date"></em><em class="gray"> 时间：</em> {{postInfo.start_at}}出发（共{{postInfo.days}}天）</span></br>
+				  		{{if postInfo.tags.length}}
+				  		<span><em class="ico ico-tag"></em><em class="gray"> 标签：</em> 
+				  			{{each postInfo.tags as tag}}
+				  			<em class="tag">{{tag}}</em>
+				  			{{/each}}
+				  		</span></br>
+				  		{{/if}}
+				  		{{if postInfo.is_my == 1 || postInfo.is_liked == 1}}
+				  		<span><em class="ico ico-phone"></em><em class="gray"> 联系：</em></span>
+				  		<div class="contact can-copy">
+				  			{{if postInfo.weixin}}
+					  		<span>微信  {{postInfo.weixin}}</span>
+					  		{{/if}}
+					  		{{if postInfo.qq}}
+					  		<span>QQ&nbsp;&nbsp;  {{postInfo.qq}}</span>
+					  		{{/if}}
+					  		{{if postInfo.phone}}
+					  		<span>手机 <a href="tel:{{postInfo.phone}}">{{postInfo.phone}}</a></span>
+					  		{{/if}}
+				  	    </div>
+				  	    {{else}}
+				  	    <span><em class="ico ico-phone"></em><em class="gray"> 联系： 求同行后可显示</em></span>
+				  	    {{/if}}
+				  		<p>
+				  			{{postInfo.content}}
+				  		</p>
+				  		<ul>
+				  			{{each postInfo.thumb as img i}}
+				  			<li><img src="{{img}}" alt="" preview="{{postInfo.preview[i]}}"></li>
+				  			{{/each}}
+				  		</ul>
+				  		<div class="clearfix f11">
+				  			{{if postInfo.post_place}}
+					  		<div class="position pull-left"><em class="ico ico-position"></em>{{postInfo.post_place}}</div>
+					  		{{/if}}
+				  			<span class="pull-right join-count">求同行 <em>{{postInfo.like_num}}</em></span>
+				  			<span class="pull-right">浏览 <em>{{postInfo.pv}}</em></span>
+				  		</div>
+			  		</div>
+			  	</div>
+			  	<div class="peer-group list-content">
+			  	<h5>同行小组</h5>
+			  	{{if postInfo.is_liked == 1 || postInfo.is_my == 1}}
+			  	<a href="joylist?post_id={{postInfo.id}}" data-rel="link">
+			  	{{else}}
+			  	<a href="javascript:void(0)">
+			  	{{/if}}
+				  	<div class="list-wrap">
+				  		{{if likedInfo.length}}
+				  		{{each likedInfo as fans}}
+				  		<span class="name">{{fans.user.nick_name}}</span>
+						<span class="sex-age {{fans.user.sex | sex}}"><em class="ico ico-{{fans.user.sex | sex}}"></em>
+						<em class="age">{{fans.user.age}}</em></span>&nbsp;&nbsp;
+						{{/each}}
+						{{else}}
+						<em class="f11 gray">暂无求同行的驴友</em>
+						{{/if}}
+						<span class="icon icon-right-nav pull-right gray"></span>
+				  	</div>
+			  	</a>
+			  	</div>
+		  	</div>
+    </script>
+    <script type="text/template" id="post_detail_menu_tpl">
+    	 {{if postInfo.is_my == 1}}
+    	 	<li class="table-view-cell del">删除</li>
+	    	{{if postInfo.is_delete !=2 }}
+	    	<li class="table-view-cell close">关闭</li>
+	    	{{/if}}
+	  	 {{else}}
+	     <li class="table-view-cell report">举报</li>
+	     {{/if}}
+    </script>
+    <script type="text/template" id="post_detail_footer_tpl">
+    	{{if postInfo.is_delete == 0 }}
+    		<div class="footer-bar-postdetail">
+	    	{{if postInfo.is_my == 0 }}
+	    	<span class="btn-big join">
+	    	{{if postInfo.is_liked == 0 }}
+	  		<em class="ico ico-love"></em>
+	  		<em class="text">求同行</em>
+	  		{{else}}
+			<em class="ico ico-love active"></em>
+			<em class="text">已约行</em>
+			{{/if}}
+			</span>
+			{{else}}
+			<span class="btn-big join disabled">
+			<em class="ico ico-love disabled"></em>
+	  		<em class="text">求同行</em>
+	  		</span>
+		    {{/if}}
+			<span class="not-wx-hide">|</span>
+		    <span class="btn-big share not-wx-hide">
+		  	<em class="ico ico-share"></em>
+			<em class="text">分享</em>
+			</span>
+			</div>
+		{{/if}}
+    </script>
+   {/literal}
+	
+{/block}

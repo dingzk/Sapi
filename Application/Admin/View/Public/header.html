@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{$title}</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" href="{$path}/css/base/bootstrap.css" />
+<link rel="stylesheet" href="{$path}/css/base/bootstrap-theme.css" />
+{foreach $cssArr as $src}
+<link rel="stylesheet" href="{$path}/{$src}.css" />
+{/foreach}
+<script type="text/javascript" src="{$path}/js/lib/require.js"></script>
+<script type="text/javascript">
+requirejs.config({
+    baseUrl : "{$path}/js/",
+    // 别名配置
+    paths: {
+        "jquery": "lib/jquery",
+        "bootstrap": "lib/bootstrap",
+        "paginator" : "lib/paginator",
+        "template" : "lib/artTemplate",
+        "highcharts" : "lib/highcharts",
+        "exporting" : "lib/exporting",
+        "form" : "lib/form",
+        "data" : "lib/data"  
+    },
+    // 
+    shim: {
+        "bootstrap": {
+            deps: ["jquery"]
+        },
+        "paginator": {
+            deps: ["jquery"]
+        },
+        "exporting": {
+            deps: ["highcharts"]
+        },
+        "data": {
+            deps: ["highcharts"]
+        },
+        "highcharts": {
+        }
+    }
+});
+//加载入口模块
+requirejs(["{$mainjs}"]);
+</script>
+</head>

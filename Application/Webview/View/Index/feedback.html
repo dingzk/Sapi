@@ -1,0 +1,39 @@
+{extends file="../Public/base.html" }
+{block config}
+    {$title = "找驴友"}
+    {$cssArr = array("/tourpal/main")}
+    {$mainjs = "/tourpal/main"}
+{/block}
+{block content}
+    <header class="bar bar-nav">
+   		<nav>
+        <span class="title">意见反馈</span>
+        <button class="btn btn-negative pull-right btn-save">提交</button>
+        <nav>
+    </header>
+    <div class="page-content page-feedback">
+    	<form class="input-group" id="feedback_form">
+    	  <div class="block">
+			 <div class="input-row">
+			    <label for="feedback_email"> 邮箱：</label>
+			    <input type="text" name="email" data-check="checkEmail" id="feedback_email">
+			  </div>
+			  <div class="input-row">
+			    <label for="feedback_phone"> 手机：</label>
+			    <input type="text" name="phone" data-check="checkPhone" id="feedback_phone">
+			  </div>
+			  <div class="input-row border-none" >
+			    <label for="feedback_qq"> QQ：</label>
+			    <input type="text" name="qq" data-check="checkQQ" id="feedback_qq">
+			  </div>
+		</div>
+		<div class="block">
+			<textarea placeholder="请留下您的意见和反馈" rows="6" name="bugs" data-check="checkContent" class="mustneed border-none" maxlength="150" ></textarea>
+		</div>
+		</form>
+		<br>
+		<p class="feedback">
+          	意见反馈QQ群：<span class="can-copy">454855083</span>
+    	 </p>
+    </div>
+{/block}

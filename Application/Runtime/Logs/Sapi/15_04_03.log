@@ -1,0 +1,16 @@
+[ 2015-04-03T10:41:16+08:00 ] 127.0.0.1 /tourpal/index.php/Sapi/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+
+[ 2015-04-03T16:03:49+08:00 ] 127.0.0.1 /tourpal/index.php/Sapi/Dest/getHotCity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+

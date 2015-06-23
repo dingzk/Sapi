@@ -1,0 +1,46 @@
+.page-card{
+    form {
+		.input-row{
+			height: 50px;
+			line-height:50px;
+		}
+		.border-none {
+			border:0;
+		}
+		label {
+			height:50px;
+			line-height:50px;
+			min-width:120px;
+			padding:0;
+		}
+		input {
+			height:50px;
+		}
+		select {
+			line-height:38px;
+		}
+		padding:0 5%;
+		margin-top:20px;
+		border-top:1px solid #BEBEBE;
+		border-bottom:1px solid #BEBEBE;
+	}
+    .table-view {
+		margin-top: 20px;
+		padding:0 5%;
+		border-top: 1px solid #d0d0d0;
+		border-bottom: 1px solid #d0d0d0;
+		li{
+			border-color: #d0d0d0;
+			padding:0;
+			line-height:50px;
+			position: relative;
+			overflow:hidden;
+			color:#6c6c6c;
+		}
+	}
+	background: #f9f9f9;
+	.logout{
+		width:90%;
+		margin:0 auto;
+	}
+}

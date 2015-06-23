@@ -1,0 +1,17 @@
+[ 2015-04-14T14:18:03+08:00 ] 127.0.0.1 /tourpal/index.php/Sapi/Client/apk/bus_1.0.1.apk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+ERR: 无法加载控制器:Client
+
+[ 2015-04-14T16:48:40+08:00 ] 127.0.0.1 /tourpal/index.php/Sapi/Upgrade/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+

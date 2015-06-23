@@ -1,0 +1,251 @@
+@import "dependence/preloader.scss";
+@import "dependence/pulltorefresh.scss";
+
+
+$page-duration: 230ms;
+
+.pages {
+	position: relative;
+	@include size(100%,100%);
+	overflow: hidden;
+	background: none;
+}
+
+.page {
+	@include full-size();
+	overflow: hidden;
+	background: #fff;
+	opacity: 1;
+
+	&.cached {
+		display: none;
+	}
+}
+
+.page-on-left {
+	@include transform($back-page-percent);
+    display:none;
+    z-index:9997;
+}
+
+.page-on-center {
+	@include transform(translate3d(0, 0, 0));
+	z-index:9999;
+}
+
+.page-on-right {
+	@include transform($front-page-percent);
+    display:none;
+    z-index:9997;
+}
+
+.page-content {
+	@include scrollable();
+	height: 100%;
+	position:relative;
+}
+
+//Class that will trigger transition during page custom transitions (like swipe-back)
+.page-transitioning {
+	@include transition-duration($page-duration);
+}
+
+// From/to Right To/from Center animations
+.page-from-right-to-center {
+	@include animation(pageFromRightToCenter $page-duration forwards);
+    z-index:9998;
+}
+
+.page-from-center-to-right {
+	@include animation(pageFromCenterToRight $page-duration forwards);
+    z-index:9997;
+}
+
+@-webkit-keyframes pageFromRightToCenter {
+    from {
+        -webkit-transform: $front-page-percent;
+    }
+    to {
+        -webkit-transform: translate3d(0,0,0);
+    }
+}
+@-webkit-keyframes pageFromCenterToRight {
+    from {
+        -webkit-transform: translate3d(0,0,0);
+    }
+    to {
+        -webkit-transform: $front-page-percent;
+    }
+}
+@keyframes pageFromRightToCenter {
+    from {
+        transform: $front-page-percent;
+    }
+    to {
+        transform: translate3d(0,0,0);
+    }
+}
+@keyframes pageFromCenterToRight {
+    from {
+        transform: translate3d(0,0,0);
+    }
+    to {
+        transform: $front-page-percent;
+    }
+}
+// From/to Center To/from Left animations
+.page-from-center-to-left {
+    @include animation(pageFromCenterToLeft $page-duration forwards);
+    z-index:9997;
+}
+.page-from-left-to-center {
+    @include animation(pageFromLeftToCenter $page-duration forwards);
+    z-index:9998;
+}
+@-webkit-keyframes pageFromCenterToLeft {
+    from {
+        -webkit-transform: translate3d(0,0,0);
+    }
+    to {
+        -webkit-transform: $back-page-percent;
+    }
+}
+@-webkit-keyframes pageFromLeftToCenter {
+    from {
+        -webkit-transform: $back-page-percent;
+    }
+    to {
+        -webkit-transform: translate3d(0,0,0);
+    }
+}
+@keyframes pageFromCenterToLeft {
+    from {
+        transform: translate3d(0,0,0);
+    }
+    to {
+        transform: $back-page-percent;
+    }
+}
+@keyframes pageFromLeftToCenter {
+    from {
+        transform: $back-page-percent;
+    }
+    to {
+        transform: translate3d(0,0,0);
+    }
+}
+
+@-webkit-keyframes fadein{from{opacity:0}to{opacity:1}}
+@-webkit-keyframes fadeout{from{opacity:1}to{opacity:0}}
+@keyframes fadein{from{opacity:0}to{opacity:1}}
+@keyframes fadeout{from{opacity:1}to{opacity:0}}
+
+// LAYERGROUP 100% PERCENT
+.layerGroup {
+    
+
+    .page-on-left {
+        @include transform(translate3d(-100%,0,0));
+        opacity: 1;
+    }
+    .page-on-center {
+        opacity: 1;
+        @include transform(translate3d(0,0,0));
+    }
+    .page-on-right {
+        opacity: 1;
+        @include transform(translate3d(100%,0,0));
+    }
+    .page-from-center-to-left {
+        @include animation(pageFromCenterToLeftGroup $page-duration forwards);
+    }
+    .page-from-left-to-center {
+        @include animation(pageFromLeftToCenterGroup $page-duration forwards);
+    }
+    .page-from-right-to-center {
+        @include animation(pageFromRightToCenterGroup $page-duration forwards);
+    }
+    .page-from-center-to-right {
+        @include animation(pageFromCenterToRightGroup $page-duration forwards);
+    }
+
+}
+.page-fade{
+    .page-on-left,page-on-right{
+        opacity:0;
+        @include transform(translate3d(0,0,0));
+    }
+    .page-on-center{
+        opacity:1;
+        @include transform(translate3d(0,0,0));
+    }
+    .page-from-center-to-left,.page-from-center-to-right {
+        @include animation(fadeout $page-duration forwards);
+    }
+    .page-from-left-to-center,.page-from-right-to-center {
+        @include animation(fadein $page-duration forwards);
+    }
+}
+@-webkit-keyframes pageFromRightToCenterGroup {
+    from {
+        -webkit-transform: translate3d(100%,0,0);
+    }
+    to {
+        -webkit-transform: translate3d(0,0,0);
+    }
+}
+@-webkit-keyframes pageFromCenterToRightGroup {
+    from {
+        -webkit-transform: translate3d(0,0,0);
+    }
+    to {
+        -webkit-transform: translate3d(100%,0,0);
+    }
+}
+@-webkit-keyframes pageFromCenterToLeftGroup {
+    from {
+        -webkit-transform: translate3d(0,0,0);
+    }
+    to {
+        -webkit-transform: translate3d(-100%,0,0);
+    }
+}
+@-webkit-keyframes pageFromLeftToCenterGroup {
+    from {
+        -webkit-transform: translate3d(-100%,0,0);
+    }
+    to {
+        -webkit-transform: translate3d(0,0,0);
+    }
+}
+
+// Disable Box shadow animation on Android
+
+.low-device{
+    height:100%;
+    
+    .pages,.page {
+        //position: initial;
+        position:relative !important;
+        height: 100%;
+        overflow:initial;
+    }
+    .page-on-left,.page-on-right{
+        display:none;
+        
+    }
+    .page-from-right-to-center,.page-from-left-to-center{
+        display:block;
+    }
+    .page-on-center{
+        display:block;
+        @include transform(none !important);
+    }
+    .page-content {
+        position: relative;
+        overflow-x: hidden;
+        min-height: 100%;
+        background-color:#ffffff;
+    }
+    
+}

@@ -1,0 +1,6 @@
+[ 2015-03-19T12:08:55+08:00 ] 127.0.0.1 /tourpal/index.php/tourpal/Api/Liked/getLikedInfoByPostId?currentPage=0&perNum=10&post_id=46
+ERR: 无法加载控制器:Tourpal
+
+[ 2015-03-19T18:59:16+08:00 ] 127.0.0.1 /tourpal/index.php/Service/Posts/myPosts
+ERR: 无法加载控制器:Service
+

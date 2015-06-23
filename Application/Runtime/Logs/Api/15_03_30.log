@@ -1,0 +1,204 @@
+[ 2015-03-30T20:09:17+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016249s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:10:49+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:15:33+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+ERR: Api is not daefined !
+[ 2015-03-30T20:15:33+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:15:34+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+ERR: Api is not daefined !
+[ 2015-03-30T20:15:34+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:15:34+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+ERR: Api is not daefined !
+[ 2015-03-30T20:15:34+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:15:34+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+ERR: Api is not daefined !
+[ 2015-03-30T20:15:34+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:15:48+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+ERR: Api is not daefined !
+[ 2015-03-30T20:15:48+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:15:48+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+ERR: Api is not daefined !
+[ 2015-03-30T20:15:48+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:15:48+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+ERR: Api is not daefined !
+[ 2015-03-30T20:15:48+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:16:14+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:16:15+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:16:16+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:18:23+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:18:24+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:18:25+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:20:38+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:20:38+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:20:38+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+
+[ 2015-03-30T20:20:38+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPosts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+NOTIC: [8] Undefined index: H5SessionId E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Service\Controller\CommonController.class.php 第 33 行.
+

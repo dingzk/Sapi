@@ -1,0 +1,1253 @@
+[ 2015-05-18T11:44:03+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [8] Undefined index: post_id E:\xampp\htdocs\tourpal\Application\Api\Controller\PostsController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0021s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0021s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN (117)  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0019s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0019s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: post E:\xampp\htdocs\tourpal\Application\Service\Model\PostsModel.class.php 第 302 行.
+NOTIC: [8] Undefined variable: post E:\xampp\htdocs\tourpal\Application\Service\Model\PostsModel.class.php 第 303 行.
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0019s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.1233s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0044s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T11:50:04+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8] Undefined index: post_id E:\xampp\htdocs\tourpal\Application\Api\Controller\PostsController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0022s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN (117)  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0023s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0021s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: post E:\xampp\htdocs\tourpal\Application\Service\Model\PostsModel.class.php 第 303 行.
+NOTIC: [8] Undefined variable: post E:\xampp\htdocs\tourpal\Application\Service\Model\PostsModel.class.php 第 304 行.
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0021s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0617s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T11:50:28+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [8] Undefined index: post_id E:\xampp\htdocs\tourpal\Application\Api\Controller\PostsController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-05-18T11:51:04+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+NOTIC: [8] Undefined index: post_id E:\xampp\htdocs\tourpal\Application\Api\Controller\PostsController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0020s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+
+[ 2015-05-18T11:51:10+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+NOTIC: [8] Undefined index: post_id E:\xampp\htdocs\tourpal\Application\Api\Controller\PostsController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0021s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+
+[ 2015-05-18T14:03:35+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+NOTIC: [8] Undefined index: post_id E:\xampp\htdocs\tourpal\Application\Api\Controller\PostsController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0019s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0028s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0004s ]
+
+[ 2015-05-18T14:03:52+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+NOTIC: [8] Undefined index: post_id E:\xampp\htdocs\tourpal\Application\Api\Controller\PostsController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0021s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN (117)  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-05-18T14:04:07+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+NOTIC: [8] Undefined index: post_id E:\xampp\htdocs\tourpal\Application\Api\Controller\PostsController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0022s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN (117)  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0019s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-05-18T14:04:46+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [8] Undefined index: post_id E:\xampp\htdocs\tourpal\Application\Api\Controller\PostsController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0021s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0019s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN (117)  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0021s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0021s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0020s ]
+
+[ 2015-05-18T14:06:13+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+NOTIC: [8] Undefined index: post_id E:\xampp\htdocs\tourpal\Application\Api\Controller\PostsController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0020s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0019s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN (117)  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0019s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0022s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0018s ]
+
+[ 2015-05-18T14:10:38+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [8] Undefined index: post_id E:\xampp\htdocs\tourpal\Application\Api\Controller\PostsController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0022s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN (117)  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0019s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0515s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0040s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T14:19:15+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0020s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0018s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0599s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0041s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T14:19:55+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0019s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0019s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0020s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0537s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0037s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T14:23:38+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=328
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 328 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0020s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 328  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0019s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 328  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0021s ]
+SQL: SELECT `id`,`place`,`desc` FROM `dest_v2` WHERE `id` IN ('50')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('328')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 328 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 328 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0019s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 328  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0017s ]
+SQL: insert into `views` (post_id, cnt) values (328, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.1875s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 328 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0007s ]
+
+[ 2015-05-18T14:29:00+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=328
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 328 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0020s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 328  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0019s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 328  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0019s ]
+SQL: SELECT `id`,`place`,`desc` FROM `dest_v2` WHERE `id` IN ('50')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('328')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 328 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 328 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0018s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 328  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0017s ]
+SQL: insert into `views` (post_id, cnt) values (328, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0500s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 328 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0008s ]
+
+[ 2015-05-18T15:26:34+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0022s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0019s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0020s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0019s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0783s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0044s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T15:30:44+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0020s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0019s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0021s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0020s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0615s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0041s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T15:50:46+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0020s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0019s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0021s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0019s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0017s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0043s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T16:10:16+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0020s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0023s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0019s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0485s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0038s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T17:28:18+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0024s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0027s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0019s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0023s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0021s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0418s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0043s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T17:50:33+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0022s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0020s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0019s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0585s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0045s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T17:53:27+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0041s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0040s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0024s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0026s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0024s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0374s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0028s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T17:53:35+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0023s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0024s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0021s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0020s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0019s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0023s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T17:54:03+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0020s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0021s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0019s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0022s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0023s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0353s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0022s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T17:54:04+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0021s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0021s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0021s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0019s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0569s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0040s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T17:54:10+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0021s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0020s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0020s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0020s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0527s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0021s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T17:54:11+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0022s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0019s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0019s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0019s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0372s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0042s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T17:54:13+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0022s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0017s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0019s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0501s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0039s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T17:54:13+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0020s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0021s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0019s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0024s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.1179s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0021s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T17:54:14+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0020s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0019s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0019s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0562s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T17:54:14+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0020s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0019s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0018s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0019s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0019s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0408s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T17:54:14+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0022s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0021s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0022s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0023s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0020s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0467s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0022s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T17:54:14+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0020s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0020s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0023s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0020s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0477s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0048s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T18:14:27+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/postDetail?post_id=117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `posts` WHERE `id` = 117 AND `is_delete` <> 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0019s ]
+SQL: SELECT `img` FROM `post_img` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `dest_id` FROM `post_dest_v2` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `liked` WHERE `uid` = 34 AND `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `liked` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0019s ]
+SQL: SELECT `cnt` FROM `views` WHERE `post_id` = 117 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `post_tag` [ RunTime:0.0021s ]
+SQL: SELECT `tag_id` FROM `post_tag` WHERE `post_id` = 117  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tags` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `views` [ RunTime:0.0017s ]
+SQL: insert into `views` (post_id, cnt) values (117, 1) on duplicate key update cnt = cnt + 1 [ RunTime:0.0572s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` = 117 GROUP BY uid, post_id ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','41')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0028s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117','117')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 214 行.
+
+[ 2015-05-18T21:07:18+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getLikedInfoByPostIdV2?post_id=7&perNum=2&offset=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('7') AND `id` < 21 GROUP BY uid, post_id ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+
+[ 2015-05-18T21:07:25+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getLikedInfoByPostIdV2?post_id=117&perNum=2&offset=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('117') AND `id` < 21 GROUP BY uid, post_id ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('41')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 228 行.
+
+[ 2015-05-18T21:08:50+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getLikedInfoByPostIdV2?post_id=117&perNum=2&offset=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('117') AND `id` < 21 GROUP BY uid, post_id ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('41')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0023s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 228 行.
+
+[ 2015-05-18T21:08:50+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getLikedInfoByPostIdV2?post_id=117&perNum=2&offset=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('117') AND `id` < 21 GROUP BY uid, post_id ORDER BY id desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('41')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 228 行.
+
+[ 2015-05-18T21:08:51+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getLikedInfoByPostIdV2?post_id=117&perNum=2&offset=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('117') AND `id` < 21 GROUP BY uid, post_id ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('41')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 228 行.
+
+[ 2015-05-18T21:08:51+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getLikedInfoByPostIdV2?post_id=117&perNum=2&offset=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('117') AND `id` < 21 GROUP BY uid, post_id ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('41')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0018s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 228 行.
+
+[ 2015-05-18T21:08:51+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getLikedInfoByPostIdV2?post_id=117&perNum=2&offset=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('117') AND `id` < 21 GROUP BY uid, post_id ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('41')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0019s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 228 行.
+
+[ 2015-05-18T21:08:51+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getLikedInfoByPostIdV2?post_id=117&perNum=2&offset=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('117') AND `id` < 21 GROUP BY uid, post_id ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('41')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 228 行.
+
+[ 2015-05-18T21:08:51+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getLikedInfoByPostIdV2?post_id=117&perNum=2&offset=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('117') AND `id` < 21 GROUP BY uid, post_id ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('41')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 228 行.
+
+[ 2015-05-18T21:08:51+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getLikedInfoByPostIdV2?post_id=117&perNum=2&offset=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('117') AND `id` < 21 GROUP BY uid, post_id ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('41')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 228 行.
+
+[ 2015-05-18T21:08:52+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getLikedInfoByPostIdV2?post_id=117&perNum=2&offset=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('117') AND `id` < 21 GROUP BY uid, post_id ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('41')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0021s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 228 行.
+
+[ 2015-05-18T21:09:19+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getLikedInfoByPostIdV2?post_id=117&perNum=2&offset=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('117') AND `id` < 21 GROUP BY uid, post_id ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('41')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 228 行.
+
+[ 2015-05-18T21:09:20+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getLikedInfoByPostIdV2?post_id=117&perNum=2&offset=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('117') AND `id` < 21 GROUP BY uid, post_id ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('41')  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0025s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('117')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: 117 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 228 行.
+

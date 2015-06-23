@@ -1,0 +1,40 @@
+[ 2015-04-15T18:13:12+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getHotCity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+
+[ 2015-04-15T18:13:19+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getHotCity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+
+[ 2015-04-15T18:13:19+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getHotCity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+
+[ 2015-04-15T18:13:19+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getHotCity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+
+[ 2015-04-15T18:13:19+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getHotCity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+

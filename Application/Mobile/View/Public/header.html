@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="UTF-8">
+<title>{$title}</title>
+<meta name="apple-mobile-app-status-bar-style" content="white" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+<link rel="apple-touch-icon" href="{$distPath}/tourpal/imgs/icon.png" />
+<link rel="apple-touch-startup-image" href="{$distPath}/tourpal/imgs/start.png" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+{foreach $cssArr as $src}
+{if $debug}
+<link rel="stylesheet" href="{$distPath}{$src}.css" />
+{else}
+<link rel="stylesheet" href="{$distPath}{$src}.min.css" />
+{/if}
+{/foreach}
+<script type="text/javascript"  src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+{if $debug}
+<script type="text/javascript" data-main="{$devPath}{$mainjs}.js" src="/Public/mobile/lib/require.js"></script>
+{else}
+<script type="text/javascript" data-main="{$distPath}{$mainjs}.min.js" src="{$distPath}/require.min.js"></script>
+{/if}
+</head>

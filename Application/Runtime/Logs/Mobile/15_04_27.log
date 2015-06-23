@@ -1,0 +1,18 @@
+[ 2015-04-27T10:32:37+08:00 ] 127.0.0.1 /tourpal/index.php/Mobile/Index/postlist?city=%E6%9D%AD%E5%B7%9E&r=1430101669709
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+NOTIC: [8] Undefined index: SessionToken E:\xampp\htdocs\tourpal\Application\Mobile\Controller\CommonController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.155101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+

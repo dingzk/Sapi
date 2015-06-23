@@ -1,0 +1,20 @@
+[ 2015-04-08T11:18:13+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPostsCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0026s ]
+SQL: SELECT `id` FROM `posts` WHERE `uid` = 3 AND `is_delete` = 0 ORDER BY id desc  [ RunTime:0.0004s ]
+
+[ 2015-04-08T11:18:16+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Posts/myPostsCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0026s ]
+SQL: SELECT `id` FROM `posts` WHERE `uid` = 3 AND `is_delete` = 0 ORDER BY id desc  [ RunTime:0.0004s ]
+

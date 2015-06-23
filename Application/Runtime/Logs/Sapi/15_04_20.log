@@ -1,0 +1,8 @@
+[ 2015-04-20T18:54:29+08:00 ] 127.0.0.1 /tourpal/index.php/Sapi/Push/push
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+

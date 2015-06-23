@@ -1,0 +1,56 @@
+.hot-city {
+	h5{
+	  border-left: 5px solid $negative-color;
+	  font-size:1rem;
+	  padding-left:5px;
+	}
+	padding: 0 5%;
+    ul{
+       margin-top:30px;
+       list-style:none;
+       padding:0;
+       width:100%;
+       img {
+       	  width:100%;
+       }
+       li{
+       	  width:46%;
+          float:left;
+          margin-bottom:20px;
+       	  &:nth-child(even){
+       	  	float:right;
+       	  }
+          span {
+            display: block;
+            width: 100%;
+            text-align: center;
+            position: relative;
+            margin-top: -26px;
+            background: #000;
+            opacity: 0.6;
+            color: #fff;
+          }
+          border-radius: 5px;
+          overflow:hidden;
+       }
+    }
+    overflow : hidden;
+}
+.input-row{
+  input {
+    width: 50%;
+    float:left;
+  }
+  .icon {
+    float:right;
+    line-height: 35px;
+    margin-right:10px;
+  }
+}
+.feedback {
+  a {
+    color:#aaa;
+    text-decoration:underline;
+  }
+  text-align:center;
+}

@@ -1,0 +1,15 @@
+CACHE MANIFEST
+##更新的时候只需修改版本号或最后更新时间即可
+##version 1.0.0.0 找驴友
+##更新时间 2015-04-12 12:00:00
+##需要离线的内容
+CACHE:
+/Public/mobile/dist/require.min.js
+/Public/mobile/dist/tourpal/main.min.js
+/Public/mobile/dist/tourpal/main.min.css
+/Public/mobile/dist/tourpal/imgs/start.png
+##总是访问网络的内容
+NETWORK:
+*
+##访问A失败时访问B
+FALLBACK

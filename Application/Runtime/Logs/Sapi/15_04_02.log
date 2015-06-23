@@ -1,0 +1,8 @@
+[ 2015-04-02T17:38:34+08:00 ] 127.0.0.1 /tourpal/index.php/Sapi/Dest/getHotCity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+

@@ -1,0 +1,67 @@
+{extends file="../Public/base.html" }
+{block config}
+    {$title = "艺龙驴友"}
+    {$cssArr = array("/tourpal/main")}
+    {$mainjs = "/tourpal/main"}
+{/block}
+{block content}
+   <header class="bar bar-nav">
+   		<nav>
+   		<span class="icon icon-left-nav pull-left" data-rel="back"></span>
+        <span class="title">发帖</span>
+        <button class="btn btn-negative pull-right btn-post">完成</button>
+        <nav>
+    </header>
+    <div class="page-content">
+    	<div class="page-post">
+	    	<form class="input-group" id="post_form">
+			  <div class="input-row dest-wrap">
+			   <div class="pull-left">
+				  	<em class="ico ico-dest"></em>  行程：
+				  	<span id="dest_list">
+				    </span>
+				</div>
+			    <input type="text" placeholder="点此输入目的地" id="dest_selector" readonly="readonly" class="pull-right">
+			    <input type="text" name="dest" data-check="checkDest" style="display:none;" class="mustneed">
+			  </div>
+			  <div class="input-row border-none">
+			    <label><em class="ico ico-date"></em> 出发时间：</label>
+			    <input type="text" placeholder="点此选择出发时间" id="date_selector" readonly="readonly" name="start_at" data-check="checkStart" class="mustneed">
+			  </div>
+			  <div class="input-row">
+			    <label class="pl">旅行时间：</label>
+			    <input type="number" placeholder="点此输入" name="days" data-check="checkDays" class="mustneed" min="1" max="30">天
+			  </div>
+			  <div class="input-row">
+			    <div><em class="ico ico-tag"></em> 旅行标签<em class="gray">（最多选择三个标签）</em></div>
+			    <div class="tag-list">
+			    </div>
+			  </div>
+			  <div class="input-row border-none">
+			    <label><em class="ico ico-phone"></em> 微信：</label>
+			    <input type="text" placeholder="至少输入一个联系方式" name="weixin" data-check="checkWeixin" class="needone">
+			  </div>
+			   <div class="input-row border-none">
+			    <label class="pl">QQ：</label>
+			    <input type="number" placeholder="点此输入" name="qq" data-check="checkQQ" class="needone">
+			  </div>
+			   <div class="input-row">
+			    <label class="pl">手机：</label>
+			    <input type="number" placeholder="点此输入" name="phone" data-check="checkPhone" class="needone">
+			  </div>
+			  <br>
+			  <textarea placeholder="请详细描述旅途概要及相关旅伴，让更多朋友找到你" rows="4" name="content" data-check="checkContent" class="mustneed border-none" maxlength="150" ></textarea>
+			   <div class="input-row position-switch">
+			    <label style="width:100%"><em class="ico ico-positiondis"></em><em>点击显示我的位置</em></label>
+			   	<input type="text" name="post_place" class="none">
+			   </div>
+			   <ul class="img-list">
+			   		<li style="margin-right:0;">
+			   			<label class="add-btn"></label>
+			   			<em class="ico ico-addpic"></em>
+			   		</li>
+			   </ul> 
+			</form>
+		</div>
+    </div>
+{/block}

@@ -1,0 +1,37 @@
+[ 2015-04-17T10:26:23+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007520s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004160s ]
+
+[ 2015-04-17T10:53:44+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+NOTIC: [8] Undefined index: id E:\xampp\htdocs\tourpal\Application\Api\Controller\ImagesController.class.php 第 30 行.
+
+[ 2015-04-17T10:54:46+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+NOTIC: [8] Undefined index: id E:\xampp\htdocs\tourpal\Application\Api\Controller\ImagesController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0022s ]
+

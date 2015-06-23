@@ -1,0 +1,168 @@
+[ 2015-04-29T10:49:23+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2015-04-29T10:50:19+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [8] Undefined index: id E:\xampp\htdocs\tourpal\Application\Api\Controller\ImagesController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0045s ]
+
+[ 2015-04-29T10:50:44+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2015-04-29T10:50:45+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2015-04-29T10:50:51+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8] Undefined index: id E:\xampp\htdocs\tourpal\Application\Api\Controller\ImagesController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0025s ]
+
+[ 2015-04-29T21:20:12+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getNewsList?perNum=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+
+[ 2015-04-29T21:21:00+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getNewsList?perNum=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0024s ]
+SQL: SELECT `id` FROM `posts` WHERE `uid` = 41 AND `is_delete` = 0 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('251','230','210','138') GROUP BY uid, post_id ORDER BY id desc LIMIT 11   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','44','38','44','47','44')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0022s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('138','251','230','230','210','210')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`place`,`desc` FROM `dest_v2` WHERE `id` IN ('123','50')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 138 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 195 行.
+NOTIC: [8] Undefined index: 210 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 195 行.
+NOTIC: [8] Undefined index: 210 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 195 行.
+SQL: UPDATE `liked` SET `is_read`='1',`read_at`='2015-04-29 21:21:00' WHERE `id` IN ('583','582','571','533','483','478') [ RunTime:0.0338s ]
+
+[ 2015-04-29T21:38:24+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getLikedInfoByPostId?post_id=7&perNum=2&offset=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('7') AND `id` < 21 GROUP BY uid, post_id ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 63 行.
+
+[ 2015-04-29T21:38:34+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getNewsList?perNum=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0023s ]
+SQL: SELECT `id` FROM `posts` WHERE `uid` = 41 AND `is_delete` = 0 ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('251','230','210','138') GROUP BY uid, post_id ORDER BY id desc LIMIT 11   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','44','38','44','47','44')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0021s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('138','251','230','230','210','210')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0021s ]
+SQL: SELECT `id`,`place`,`desc` FROM `dest_v2` WHERE `id` IN ('123','50')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 138 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 195 行.
+NOTIC: [8] Undefined index: 210 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 195 行.
+NOTIC: [8] Undefined index: 210 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 195 行.
+SQL: UPDATE `liked` SET `is_read`='1',`read_at`='2015-04-29 21:38:34' WHERE `id` IN ('583','582','571','533','483','478') [ RunTime:0.0449s ]
+
+[ 2015-04-29T21:56:35+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getNewsList?perNum=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0023s ]
+SQL: SELECT `id` FROM `posts` WHERE `uid` = 41 AND `is_delete` = 0 ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `liked` WHERE `post_id` IN ('251','230','210','138') GROUP BY uid, post_id ORDER BY id desc LIMIT 11   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('44','44','38','44','47','44')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest_v2` WHERE `post_id` IN ('138','251','230','230','210','210')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`place`,`desc` FROM `dest_v2` WHERE `id` IN ('123','50')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 138 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 195 行.
+NOTIC: [8] Undefined index: 210 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 195 行.
+NOTIC: [8] Undefined index: 210 E:\xampp\htdocs\tourpal\Application\Service\Model\LikedModel.class.php 第 195 行.
+SQL: UPDATE `liked` SET `is_read`='1',`read_at`='2015-04-29 21:56:35' WHERE `id` IN ('583','582','571','533','483','478') [ RunTime:0.0505s ]
+
+[ 2015-04-29T22:17:51+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getNewsList?perNum=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+

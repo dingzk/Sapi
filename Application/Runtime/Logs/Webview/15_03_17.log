@@ -1,0 +1,9 @@
+[ 2015-03-17T14:17:25+08:00 ] 127.0.0.1 /tourpal/index.php/Service/Images/index
+ERR: 无法加载控制器:Service
+
+[ 2015-03-17T14:18:16+08:00 ] 127.0.0.1 /tourpal/index.php/Runtime
+ERR: 无法加载控制器:Runtime
+
+[ 2015-03-17T14:18:21+08:00 ] 127.0.0.1 /tourpal/index.php/Service/Images/index
+ERR: 无法加载控制器:Service
+

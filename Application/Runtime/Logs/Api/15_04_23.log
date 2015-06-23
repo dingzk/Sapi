@@ -1,0 +1,1293 @@
+[ 2015-04-23T17:50:08+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E5%8C%97%E4%BA%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+
+[ 2015-04-23T17:50:33+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E5%8C%97%E4%BA%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0027s ]
+SQL: SELECT `id` FROM `dest_v2` WHERE `place` = '北京' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest` [ RunTime:0.0024s ]
+SQL: SELECT `post_id` FROM `post_dest` WHERE `dest_id` = 50 ORDER BY post_id desc LIMIT 21   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `posts` WHERE `id` IN ('145','143','142','141','139') AND `is_delete` = 0 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0022s ]
+SQL: SELECT `post_id`,`img` FROM `post_img` WHERE `post_id` IN (145,143,142,141,139)  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `uid` FROM `posts` WHERE `id` IN ('145','143','142','141','139') AND `is_delete` = 0 ORDER BY uid asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('35','39')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0023s ]
+SQL: SELECT count(distinct uid) as num,`post_id` FROM `liked` WHERE `post_id` IN ('145','143','142','141','139') GROUP BY post_id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_dest` [ RunTime:0.0021s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest` WHERE `post_id` IN ('145','143','142','141','139')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0024s ]
+SQL: SELECT `id`,`place`,`desc` FROM `dest_v2` WHERE `id` IN ('50','165')  [ RunTime:0.0003s ]
+
+[ 2015-04-23T17:50:41+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E5%8C%97%E4%BA%AC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0023s ]
+SQL: SELECT `id` FROM `dest_v2` WHERE `place` = '北京' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest` [ RunTime:0.0022s ]
+SQL: SELECT `post_id` FROM `post_dest` WHERE `dest_id` = 50 ORDER BY post_id desc LIMIT 21   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `posts` WHERE `id` IN ('145','143','142','141','139') AND `is_delete` = 0 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_img` [ RunTime:0.0021s ]
+SQL: SELECT `post_id`,`img` FROM `post_img` WHERE `post_id` IN (145,143,142,141,139)  [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `uid` FROM `posts` WHERE `id` IN ('145','143','142','141','139') AND `is_delete` = 0 ORDER BY uid asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('35','39')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `liked` [ RunTime:0.0019s ]
+SQL: SELECT count(distinct uid) as num,`post_id` FROM `liked` WHERE `post_id` IN ('145','143','142','141','139') GROUP BY post_id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest` [ RunTime:0.0020s ]
+SQL: SELECT `post_id`,`dest_id` FROM `post_dest` WHERE `post_id` IN ('145','143','142','141','139')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0019s ]
+SQL: SELECT `id`,`place`,`desc` FROM `dest_v2` WHERE `id` IN ('50','165')  [ RunTime:0.0002s ]
+
+[ 2015-04-23T17:50:59+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E9%9F%B3%E4%B9%90%E5%96%B7%E6%B3%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0024s ]
+SQL: SELECT `id` FROM `dest_v2` WHERE `place` = '音乐喷泉' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest` [ RunTime:0.0019s ]
+SQL: SELECT `post_id` FROM `post_dest` WHERE `dest_id` = 13814 ORDER BY post_id desc LIMIT 21   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0023s ]
+
+[ 2015-04-23T17:51:12+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E9%9F%B3%E4%B9%90%E5%96%B7%E6%B3%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0027s ]
+SQL: SELECT `id` FROM `dest_v2` WHERE `place` = '音乐喷泉' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `post_dest` [ RunTime:0.0023s ]
+SQL: SELECT `post_id` FROM `post_dest` WHERE `dest_id` = 13814 ORDER BY post_id desc LIMIT 21   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0026s ]
+
+[ 2015-04-23T17:51:14+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0022s ]
+SQL: SELECT `id` FROM `dest_v2` WHERE `place` = '澳门' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest` [ RunTime:0.0020s ]
+SQL: SELECT `post_id` FROM `post_dest` WHERE `dest_id` = 392 ORDER BY post_id desc LIMIT 21   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0023s ]
+
+[ 2015-04-23T17:51:42+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0022s ]
+SQL: SELECT `id` FROM `dest_v2` WHERE `place` = '澳门' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest` [ RunTime:0.0021s ]
+SQL: SELECT `post_id` FROM `post_dest` WHERE `dest_id` = 392 ORDER BY post_id desc LIMIT 21   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0024s ]
+
+[ 2015-04-23T17:51:52+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0023s ]
+SQL: SELECT `id` FROM `dest_v2` WHERE `place` = '澳门' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `post_dest` [ RunTime:0.0019s ]
+SQL: SELECT `post_id` FROM `post_dest` WHERE `dest_id` = 392 ORDER BY post_id desc LIMIT 21   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0022s ]
+
+[ 2015-04-23T20:37:18+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' AND `pinyin` LIKE '澳门%' AND `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0044s ]
+
+[ 2015-04-23T20:37:44+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0043s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' AND `pinyin` LIKE '澳门%' AND `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0023s ]
+
+[ 2015-04-23T20:37:45+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' AND `pinyin` LIKE '澳门%' AND `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0024s ]
+
+[ 2015-04-23T20:37:46+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' AND `pinyin` LIKE '澳门%' AND `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0022s ]
+
+[ 2015-04-23T20:37:46+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0025s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' AND `pinyin` LIKE '澳门%' AND `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0024s ]
+
+[ 2015-04-23T20:37:46+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0024s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' AND `pinyin` LIKE '澳门%' AND `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0026s ]
+
+[ 2015-04-23T20:37:46+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0025s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' AND `pinyin` LIKE '澳门%' AND `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0024s ]
+
+[ 2015-04-23T20:37:46+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' AND `pinyin` LIKE '澳门%' AND `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0022s ]
+
+[ 2015-04-23T20:37:46+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' AND `pinyin` LIKE '澳门%' AND `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0022s ]
+
+[ 2015-04-23T20:37:46+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0022s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' AND `pinyin` LIKE '澳门%' AND `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0025s ]
+
+[ 2015-04-23T20:37:47+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0022s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' AND `pinyin` LIKE '澳门%' AND `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0022s ]
+
+[ 2015-04-23T20:37:47+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' AND `pinyin` LIKE '澳门%' AND `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0024s ]
+
+[ 2015-04-23T20:37:47+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' AND `pinyin` LIKE '澳门%' AND `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0027s ]
+
+[ 2015-04-23T20:37:47+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' AND `pinyin` LIKE '澳门%' AND `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0024s ]
+
+[ 2015-04-23T20:38:29+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' OR `pinyin` LIKE '澳门%' OR `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `post_dest` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+SQL: SELECT `post_id` FROM `post_dest` WHERE ( ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  )  ) ORDER BY post_id desc LIMIT 21   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0025s ]
+
+[ 2015-04-23T20:38:30+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' OR `pinyin` LIKE '澳门%' OR `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `post_dest` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+SQL: SELECT `post_id` FROM `post_dest` WHERE ( ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  )  ) ORDER BY post_id desc LIMIT 21   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0023s ]
+
+[ 2015-04-23T20:38:59+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' OR `pinyin` LIKE '澳门%' OR `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `post_dest` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+SQL: SELECT `post_id` FROM `post_dest` WHERE ( ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  )  ) ORDER BY post_id desc LIMIT 21   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0024s ]
+
+[ 2015-04-23T20:38:59+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' OR `pinyin` LIKE '澳门%' OR `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `post_dest` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+SQL: SELECT `post_id` FROM `post_dest` WHERE ( ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  )  ) ORDER BY post_id desc LIMIT 21   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0026s ]
+
+[ 2015-04-23T20:38:59+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0024s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' OR `pinyin` LIKE '澳门%' OR `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `post_dest` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+SQL: SELECT `post_id` FROM `post_dest` WHERE ( ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  )  ) ORDER BY post_id desc LIMIT 21   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0028s ]
+
+[ 2015-04-23T20:39:00+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getPostsByPlace?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0022s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' OR `pinyin` LIKE '澳门%' OR `short_name` LIKE '澳门%' ORDER BY id, level asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `post_dest` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 539 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 0 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 2 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 585 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 586 行.
+NOTIC: [8] Undefined offset: 3 E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Db\Driver.class.php 第 589 行.
+SQL: SELECT `post_id` FROM `post_dest` WHERE ( ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  ) AND ( `dest_id` = null AND `dest_id` = null AND `dest_id` = null AND `dest_id` = null  )  ) ORDER BY post_id desc LIMIT 21   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0027s ]
+
+[ 2015-04-23T21:05:12+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/suggest?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+
+[ 2015-04-23T21:05:54+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/suggest?dest=%E6%BE%B3%E9%97%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `dest_v2` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`place`,`level`,`desc` FROM `dest_v2` WHERE `place` LIKE '澳门%' OR `pinyin` LIKE '澳门%' OR `short_name` LIKE '澳门%' ORDER BY id, level asc LIMIT 5   [ RunTime:0.0006s ]
+

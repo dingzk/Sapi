@@ -1,0 +1,16 @@
+[ 2015-04-13T10:07:56+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+
+[ 2015-04-13T10:07:57+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/like?post_id=2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+

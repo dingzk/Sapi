@@ -1,0 +1,25 @@
+.page-setting{
+	.table-view {
+		margin-top: 20px;
+		padding:0 5%;
+		border-top: 1px solid #d0d0d0;
+		border-bottom: 1px solid #d0d0d0;
+		li{
+			border-color: #d0d0d0;
+			padding:0;
+			line-height:50px;
+			position: relative;
+			overflow:hidden;
+			a {
+				color:#6c6c6c;
+			}
+			.toggle{
+				right:0;
+			}
+		}
+	}
+	p{
+		padding:0 5%;
+	}
+	background: #f9f9f9;
+}

@@ -1,0 +1,162 @@
+[ 2015-03-13T14:47:05+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getNewsList
+ERR: Think\Controller:_initialize方法不存在！
+
+[ 2015-03-13T14:49:56+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getNewsList
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 0,20' at line 1
+
+[ 2015-03-13T14:53:15+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/getNewsList
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2015-03-13T15:02:28+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/
+ERR: 非法操作:index
+
+[ 2015-03-13T15:04:25+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Liked/
+ERR: 非法操作:index
+
+[ 2015-03-13T16:43:06+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2015-03-13T16:43:11+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2015-03-13T16:43:11+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2015-03-13T16:44:02+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+ERR: Curl failed, Error info: Could not resolve host: pavo.elonstatic.com; Host not found
+[ 2015-03-13T16:44:02+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+ERR: upload img failed : N;
+[ 2015-03-13T16:44:02+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+ERR: Curl failed, Error info: Could not resolve host: pavo.elonstatic.com; Host not found
+[ 2015-03-13T16:44:02+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+ERR: upload img failed : N;
+[ 2015-03-13T16:44:02+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+ERR: Curl failed, Error info: Could not resolve host: pavo.elonstatic.com; Host not found
+[ 2015-03-13T16:44:02+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+ERR: upload img failed : N;
+[ 2015-03-13T16:44:02+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE `mid` = 2130706433 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given E:\xampp\htdocs\tourpal\Application\Service\Controller\ImagesController.class.php 第 66 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given E:\xampp\htdocs\tourpal\Application\Service\Controller\ImagesController.class.php 第 66 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given E:\xampp\htdocs\tourpal\Application\Service\Controller\ImagesController.class.php 第 66 行.
+
+[ 2015-03-13T16:58:09+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2015-03-13T16:58:19+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `mid` = 2130706433 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-03-13T16:58:44+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2015-03-13T16:58:47+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Images/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE `mid` = 2130706433 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\tourpal\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-03-13T17:13:09+08:00 ] 127.0.0.1 /tourpal/index.php/Api/Dest/getHotCity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `user` WHERE `mid` = 2130706433 LIMIT 1   [ RunTime:0.0002s ]
+

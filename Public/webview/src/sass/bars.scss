@@ -1,0 +1,334 @@
+//
+// Bars
+// --------------------------------------------------
+
+.bar {
+  position:absolute;
+  //position:fixed;
+  z-index: 9999;
+  height: $bar-base-height;
+  padding-right: $bar-side-spacing;
+  padding-left: $bar-side-spacing;
+  background-color: $chrome-color;
+  -webkit-backface-visibility: hidden; // Make sure the bar is visible when a modal animates in.
+          backface-visibility: hidden;
+  left: 0px;
+  right: 0px;
+  @include user-select(none);
+}
+.page-content .bar{
+  z-index:9990;
+}
+
+// Modifier class to dock any bar below .bar-nav
+.bar-header-secondary {
+  top: $bar-base-height;
+}
+
+// Modifier class for footer bars
+.bar-footer {
+  bottom: 0;
+}
+
+// Modifier class to dock any bar above a standard bar
+.bar-footer-secondary {
+  bottom: $bar-base-height;
+}
+
+// Modifier class to dock any bar above a .bar-tab
+.bar-footer-secondary-tab {
+  bottom: $bar-tab-height;
+}
+
+// Give the footers the correct border
+.bar-footer,
+.bar-footer-secondary,
+.bar-footer-secondary-tab {
+  border-top: $border-default;
+  border-bottom: 0;
+}
+
+// Nav bar
+// --------------------------------------------------
+
+// Bar docked to top of viewport for showing page title and actions
+.bar-nav {
+  background-color: $bar-nav-background;
+  color: $bar-nav-color;
+}
+.bar-nav~.page-content,.bar-footer~.page-content{
+  padding-top:44px;
+}
+.bar-tab~.page-content{
+  padding-bottom:50px;
+}
+.bar-header-secondary ~ .page-content{
+  padding-top:88px;
+}
+
+
+// Centered text in the .bar-nav
+//
+// We position the absolutely to make sure the title is always centered
+.title {
+  position: absolute;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0 (-$bar-side-spacing);
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: $bar-base-height;
+  text-align: center;
+  white-space: nowrap;
+  h1 {
+    font-size: 1.2rem;
+    line-height: 44px;
+    width: 200px;
+    margin: 0px auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+// Retain specified title color
+.title a {
+  color: inherit;
+}
+
+//new add
+.bar-fixed {
+  position: fixed;
+}
+
+// Tab bar
+// --------------------------------------------------
+
+// Bar docked to bottom and used for primary app navigation
+.bar-tab {
+  display: table;
+  bottom: 0;
+  width: 100%;
+  height: $bar-tab-height;
+  padding: 0;
+  table-layout: fixed;
+  border-top: $border-default;
+  border-bottom: 0;
+  background-color: #FAFAFA;
+
+  // Navigational tab (Nested to be more specific for the icons in tab-items)
+  .tab-item {
+    display: table-cell;
+    width: 1%;
+    height: $bar-tab-height;
+    color: #929292;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+    font-weight: bold;
+
+    // Active states for the tab bar
+    &.active,
+    &:active {
+      color: $primary-color;
+      font-weight: bold;
+    }
+
+
+    // Tab icon
+    .icon {
+      top: 3px;
+      width: 24px;
+      height: 24px;
+      padding-top: 0;
+      padding-bottom: 0;
+
+      // Make the text smaller if it's used with an icon
+      ~ .tab-label {
+        display: block;
+        font-size: 11px;
+      }
+    }
+  }
+}
+
+// Bars with buttons
+// --------------------------------------------------
+
+.bar .btn {
+  position: relative;
+  top: 7px;
+  z-index: 20; // Position the buttons on top of .title
+  padding: 6px 12px 7px;
+  margin-top: 0;
+  font-weight: $font-weight-light;
+
+  // Give buttons that are floated left and right side margin
+  &.pull-right {
+    margin-left: $bar-side-spacing;
+  }
+  &.pull-left {
+    margin-right: $bar-side-spacing;
+  }
+}
+
+// Bars with link buttons (Line the text up with content)
+.bar .btn-link {
+  top: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: $bar-base-height;
+  color: $primary-color;
+  border: 0;
+
+  &:active,
+  &.active {
+    color: darken($primary-color, 10%);
+  }
+}
+
+// Bars with block buttons
+//
+// Add proper padding
+.bar .btn-block {
+  top: 6px;
+  padding: 7px 0;
+  margin-bottom: 0;
+  font-size: 16px; // Scale down font size to fit in bar.
+}
+
+// Nav buttons (Only applicable within bars)
+//
+// Buttons inside bars that sit closer against the viewport.
+.bar .btn-nav {
+  &.pull-left {
+    margin-left: -5px;
+
+    .icon-left-nav {
+      margin-right: -3px;
+    }
+  }
+  &.pull-right {
+    margin-right: -5px;
+
+    .icon-right-nav {
+      margin-left: -3px;
+    }
+  }
+}
+
+
+// Bars with Ratchicons
+// --------------------------------------------------
+
+.bar {
+  .icon {
+    position: relative;
+    z-index: 20; // Position the buttons on top of .title
+    padding-top: 12px;
+    width:44px;
+    height:44px;
+    display: inline-block;
+  }
+
+  // Vertical center the larger icons in btns.
+  .btn .icon {
+    top: 3px;
+    padding: 0;
+  }
+
+  // Handle carets in the titles
+  .title .icon {
+    padding: 0;
+
+    // Specific postioning of the caret icon within a title. Used with popover.js.
+    &.icon-caret {
+      top: 4px;
+      margin-left: -5px;
+    }
+  }
+
+  .icon-phone {
+    background-image: $bar-phone-icon;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    
+  }
+  
+  .icon-home {
+    background-image: $bar-home-icon;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    
+  }
+
+  .icon-left-nav {
+    background-image: $bar-back-icon;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    
+    padding-left: 10px;
+  }
+}
+
+
+// Bars for search forms
+// --------------------------------------------------
+
+// Position/size search bar within the bar
+.bar input[type="search"] {
+  height: 29px;
+  margin: 6px 0;
+}
+
+
+// Bars with segmented controls
+// --------------------------------------------------
+
+// Position the control correctly inside a bar.
+.bar .segmented-control {
+  top: 7px;
+  margin: 0 auto;
+}
+
+.segmented-control {
+  position: relative;
+  display: table;
+  overflow: hidden;
+  font-size: 0.9rem;
+  font-weight: 400;
+  background-color: #ffffff;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+
+  .control-item {
+    display: table-cell;
+    width: 1%;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    overflow: hidden;
+    color: #333333;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-left: 1px solid #CCCCCC;
+    line-height: 1;
+    &:first-child {
+      border-left: none;
+    }
+  }
+  .control-item.active {
+    background-color:#eeeeee;
+  }
+}
+
+.low-device{
+  
+  .bar {
+    position: fixed;
+  }
+  
+}

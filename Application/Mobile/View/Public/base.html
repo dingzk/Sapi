@@ -1,0 +1,15 @@
+{* 找驴友项目base *}
+{$debug = true}                 				  {* 环境配置 *}
+{$devPath = '/Public/mobile/entry'}			      {* 开发环境静态资源路径 *}
+{$distPath = '/Public/mobile/dist'}               {* 线上环境静态资源路径 *}
+{block config}{/block}
+{include '../Public/header.html'}
+<body>
+	<div class="pages">
+		<div class="page">
+			{block content} {/block}
+		</div>
+	</div>
+    {include '../Public/footer.html'}
+</body>
+</html>

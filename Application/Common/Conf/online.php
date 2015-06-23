@@ -3,10 +3,10 @@ return array(
 		# MySQL config
 		'DB_DEPLOY_TYPE'=> 1, // 设置分布式数据库支持
 		'DB_TYPE'    => 'mysql',
-		'DB_HOST'    => 'w.tourpal.p.mysql.elong.com,r.tourpal.p.mysql.elong.com',
+		'DB_HOST'    => 'hostname_w,hostname_r',
 		'DB_NAME'    => 'tourpal',
 		'DB_USER'    => 'tourpal_w,tourpal_r',
-		'DB_PWD'     => 'R9s3T6j1K9d7,Y65i1Y7j2U1a8',
+		'DB_PWD'     => 'passwd_w,passwd_r',
 		'DB_PORT'    => '6120,6120',
 		'DB_RW_SEPARATE' => true,	# 读写分离
 		'DB_PREFIX'  => '',
